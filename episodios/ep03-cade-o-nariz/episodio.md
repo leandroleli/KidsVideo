@@ -14,46 +14,54 @@ Referências:
 |---|---|
 | Tipo | Educativo (falas e interação) |
 | Amigo | Vaquinha Nuvem 🐮 (apresentada no ep02) |
-| Área de aprendizagem | Corpo e linguagem |
-| Objetivo | A criança **aponta o próprio nariz e as orelhas** quando ouve o nome |
-| Tema | Na fazendinha, a Nuvem brinca de "Cadê?" atrás do fardo de feno e os dois perguntam à criança: "Cadê o seu nariz?" |
+| Área de aprendizagem | Corpo e movimento |
+| Objetivo | A criança **aponta o próprio nariz** quando ouve "nariz" |
+| Idade | 1–2 anos |
+| Por que funciona para essa idade | Apontar partes do rosto é uma das primeiras brincadeiras de vocabulário (por volta de 1 ano e meio). Um alvo só, falas curtas e o focinho grande da Nuvem deixam o "nariz" fácil de ver |
+| Tema | Na fazendinha, a Nuvem cheira um girassol, o Bolinha mostra o nariz dela e os dois perguntam à criança: "Cadê o seu nariz?" |
 | Duração-alvo | 20s (geração 1 de ~10s + continuação até 20s) |
 | Data de publicação | 2026-09-30 |
 | Status | roteiro |
 
-**Como a aprendizagem acontece:**
-- **Nariz** aparece 4 vezes e **orelhas** 3 vezes.
-- Duas perguntas diretas para a criança, cada uma seguida de ~1s de silêncio para ela apontar.
-- O Bolinha mostra o gesto: põe a asinha na ponta do bico e depois as duas asinhas do lado da cabeça.
-- Depois da pausa vem um elogio ("Muuuito bem!"), que recompensa a criança que apontou.
+**Como o conceito aparece:**
+- **1ª aparição:** o Bolinha mostra o nariz da Nuvem, e ela conta o que o nariz faz ("Meu nariz cheira!").
+- **2ª aparição:** o Bolinha pergunta à criança "Cadê o seu nariz?", com ~1s de silêncio para ela apontar e o elogio da Nuvem.
+- **Variação:** depois do espirro ("Foi o nariz!"), quem pergunta é a Nuvem: "E o seu nariz? Cadê?". Vem a segunda pausa e o Bolinha comemora.
+- **Nariz** é dito 6 vezes. O Bolinha **não** aponta o próprio bico: pintinho não tem nariz como o nosso. Ele aponta o focinho da Nuvem e depois a câmera (a criança).
 
 ## 2. Ficha de variação
 
 | Item | Este episódio | Ep02 | Ep01 |
 |---|---|---|---|
-| Trilha (tonalidade, clima) | Fá maior, calma e leve, só instrumental | Sol maior, cantada | Música de fundo do Veo |
-| Andamento (BPM) | **84 BPM** | 96 BPM | ~120 BPM |
+| Tipo | Educativo | Apresentação | Musiquinha (antes dos pares) |
+| Amigo | Vaquinha Nuvem | Vaquinha Nuvem | — |
+| Área | Corpo e movimento | Natureza e animais | — |
+| Objetivo | Apontar o próprio nariz | Associar a vaca ao "muu" | — |
+| Cenário | Pasto da fazendinha: fardo de feno redondo com um girassol alto do lado, cerca, celeiro pequeno ao fundo | Janela do celeiro | Cozinha pastel |
+| Iluminação | Meio-dia, sol claro | Manhã | — |
+| Estrutura (musical ou de falas) | **Pergunta e resposta falada** (sem letra) | Onomatopeia + chamada e resposta | Falas soltas |
 | Instrumento principal | Kalimba + pizzicato suave | Ukulele + palmas + sininho | Ukulele + xilofone + palmas |
-| Cenário | Pasto da fazendinha: fardo de feno redondo, cerca, celeiro pequeno ao fundo | Janela do celeiro | Cozinha pastel |
-| Estrutura | **Pergunta e resposta falada** (sem letra) | Onomatopeia + chamada e resposta | Falas soltas |
-| Momento surpresa | A orelha da Nuvem faz cócegas no bico e o Bolinha espirra "Atchim!", virando uma bola de penas | "MUU" gigante faz o chapéu voar | Cenoura vira estrela |
+| Andamento (BPM) | **84 BPM** | 96 BPM | ~120 BPM |
+| Tonalidade | Fá maior (só trilha) | Sol maior | — |
+| Momento surpresa | A Nuvem espirra para o alto ("Atchim!"), o girassol balança ("boing") e as penas do Bolinha estufam de susto | "MUU" gigante faz o chapéu voar | Cenoura vira estrela |
+| Final / loop | **Ação que recomeça:** a Nuvem volta a cheirar o girassol, como no 1º frame | Amiga se esconde na janela | Loop parcial |
 
 ## 3. Roteiro por cena
 
 | Tempo | Geração | Cena (visual) | Áudio |
 |---|---|---|---|
-| 0:00–0:01 | 1 | **Gancho:** Bolinha já em cena, olhando o fardo de feno. A Nuvem **surge de repente** de trás do fardo, com o focinho rosa bem perto do Bolinha. Ele dá um pulinho de alegria | **Nuvem:** "Muu!" |
-| 0:01–0:03 | 1 | Bolinha aponta o focinho da Nuvem com a asinha; ela mexe o focinho | **Bolinha:** "Olha o nariz da Nuvem!" |
-| 0:03–0:05 | 1 | Bolinha vira para a câmera e põe a asinha na ponta do bico | **Bolinha:** "Cadê o seu nariz?" |
-| 0:05–0:06 | 1 | **Pausa:** os dois olham para a câmera, sorrindo, esperando | *(silêncio de falas, só trilha)* |
-| 0:06–0:07 | 1 | Nuvem balança a cabeça, contente; o sininho balança | **Nuvem:** "Muuuito bem!" |
-| 0:07–0:09 | 1 | Nuvem abana as orelhas e olha para a câmera; Bolinha põe as duas asinhas do lado da cabeça | **Nuvem:** "E as orelhas? Cadê?" |
-| 0:09–0:10 | 1 | **Pausa:** os dois olham para a câmera, esperando | *(silêncio de falas, só trilha)* |
-| 0:10–0:11 | 2 | Bolinha dá um pulinho, asinhas ainda na cabeça | **Bolinha:** "Isso! Orelhas!" |
-| 0:11–0:13 | 2 | **Surpresa:** Nuvem abana as orelhas bem forte, uma orelha faz cócegas no bico do Bolinha, ele espirra e as penas estufam feito uma bola; o chapéu balança mas não cai. Os dois riem | **Bolinha:** "Atchim!" + risadinhas |
-| 0:13–0:16 | 2 | Bolinha aponta o focinho (Nuvem mexe o focinho), depois as orelhas (Nuvem abana as orelhas) | **Bolinha:** "Nariz! Orelhas!" |
-| 0:16–0:18 | 2 | Nuvem dá risadinha e se abaixa atrás do fardo até sumir | risadinha da Nuvem |
-| 0:18–0:20 | 2 | **Loop:** Bolinha na mesma pose do 1º frame, olhando o fardo com curiosidade | **Bolinha** (baixinho): "Cadê a Nuvem?" → emenda no "Muu!" do início |
+| 0:00–0:02 | 1 | **Gancho:** os dois já em cena. A Nuvem, atrás do fardo, cheira o girassol com o focinho ("snif, snif"). O Bolinha aponta o focinho dela com a asinha | **Bolinha:** "Olha o nariz da Nuvem!" |
+| 0:02–0:04 | 1 | A Nuvem vira para a câmera e mexe o focinho, orgulhosa | **Nuvem:** "Meu nariz cheira!" |
+| 0:04–0:06 | 1 | O Bolinha vira para a câmera e aponta a asinha para a criança | **Bolinha:** "Cadê o seu nariz?" |
+| 0:06–0:07 | 1 | **Pausa:** os dois olham para a câmera, sorrindo, esperando | *(silêncio de falas, só trilha)* |
+| 0:07–0:08 | 1 | A Nuvem balança a cabeça, contente; o sininho balança | **Nuvem:** "Muuuito bem!" |
+| 0:08–0:10 | 1 | A Nuvem cheira o girassol de novo e o focinho começa a tremer (vai espirrar). O Bolinha olha, curioso | "snif… snif…" |
+| 0:10–0:12 | 2 | **Surpresa:** a Nuvem levanta a cabeça e espirra para o alto. O girassol balança para trás e volta ("boing"), e as penas do Bolinha estufam de susto, feito uma bola; o chapéu balança mas não cai | **Nuvem:** "Atchim!" |
+| 0:12–0:14 | 2 | Os dois riem; o Bolinha, ainda fofo feito bola, aponta o focinho da Nuvem | **Bolinha:** "Foi o nariz!" + risadinhas |
+| 0:14–0:16 | 2 | A Nuvem olha para a câmera e mexe o focinho | **Nuvem:** "E o seu nariz? Cadê?" |
+| 0:16–0:17 | 2 | **Pausa:** os dois olham para a câmera, esperando | *(silêncio de falas, só trilha)* |
+| 0:17–0:18 | 2 | O Bolinha dá um pulinho e as penas voltam ao normal | **Bolinha:** "Isso! Nariz!" |
+| 0:18–0:20 | 2 | **Loop:** a Nuvem volta a encostar o focinho no girassol e o Bolinha volta para a pose do 1º frame, olhando para ela | "snif…" → emenda no "snif, snif" do início |
 
 ## 4. Falas completas
 
@@ -61,18 +69,18 @@ Máximo de 6 palavras por fala. Cada fala entra no prompt de vídeo com o texto 
 
 | Geração | Tempo | Quem fala | Fala | Tom |
 |---|---|---|---|---|
-| 1 | 0,0–1,0s | Nuvem | "Muu!" | alegre, surpresa |
-| 1 | 1,0–3,0s | Bolinha | "Olha o nariz da Nuvem!" | animado, admirado |
-| 1 | 3,0–5,0s | Bolinha | "Cadê o seu nariz?" | pergunta carinhosa, para a câmera |
-| 1 | 5,0–6,0s | — | *(pausa para a criança apontar)* | — |
-| 1 | 6,0–7,0s | Nuvem | "Muuuito bem!" | calma, orgulhosa, alongando o "u" |
-| 1 | 7,0–9,0s | Nuvem | "E as orelhas? Cadê?" | pergunta brincalhona, para a câmera |
-| 1 | 9,0–10,0s | — | *(pausa para a criança apontar)* | — |
-| 2 | 10,0–11,0s | Bolinha | "Isso! Orelhas!" | vibrando |
-| 2 | 11,0–13,0s | Bolinha | "Atchim!" *(+ risadinhas dos dois)* | espirro fofinho, pequeno |
-| 2 | 13,0–16,0s | Bolinha | "Nariz! Orelhas!" | brincando, ritmado |
-| 2 | 16,0–18,0s | Nuvem | *(risadinha)* | risonha |
-| 2 | 18,0–20,0s | Bolinha | "Cadê a Nuvem?" | baixinho, curioso |
+| 1 | 0,0–2,0s | Bolinha | "Olha o nariz da Nuvem!" | animado, admirado |
+| 1 | 2,0–4,0s | Nuvem | "Meu nariz cheira!" | calma, orgulhosa |
+| 1 | 4,0–6,0s | Bolinha | "Cadê o seu nariz?" | pergunta carinhosa, para a câmera |
+| 1 | 6,0–7,0s | — | *(pausa para a criança apontar)* | — |
+| 1 | 7,0–8,0s | Nuvem | "Muuuito bem!" | calma, orgulhosa, alongando o "u" |
+| 1 | 8,0–10,0s | — | *(snif… snif…)* | — |
+| 2 | 10,0–12,0s | Nuvem | "Atchim!" | espirro fofinho, para o alto |
+| 2 | 12,0–14,0s | Bolinha | "Foi o nariz!" *(+ risadinhas dos dois)* | rindo |
+| 2 | 14,0–16,0s | Nuvem | "E o seu nariz? Cadê?" | pergunta brincalhona, para a câmera |
+| 2 | 16,0–17,0s | — | *(pausa para a criança apontar)* | — |
+| 2 | 17,0–18,0s | Bolinha | "Isso! Nariz!" | vibrando |
+| 2 | 18,0–20,0s | — | *(snif…)* | — |
 
 **Vozes (usar nos prompts):**
 - Bolinha: `a cute high-pitched young child voice, sweet and clear, Brazilian Portuguese`
@@ -88,18 +96,19 @@ A imagem do 1º frame (5.1) é feita no modo de **imagem** e não gasta o limite
 
 ### 5.1 Preparar o 1º frame (imagem)
 
-1. Gemini → criação de imagem → anexe a referência do Bolinha.
+1. Gemini → criação de imagem → anexe a referência do Bolinha **e** o frame do ep02 com a Nuvem (`../ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png`). A Nuvem precisa estar no 1º frame: sem imagem dela, o Veo inventa o visual.
 2. Cole:
 
 ```
-Use the attached image as the exact character reference. Vertical 9:16 image.
-Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting.
-Setting: a cute pastel farm meadow on a sunny morning: a big round golden haybale on soft green grass, a white wooden fence behind it, a small red-and-cream barn far in the background, a few sunflowers, fluffy clouds in a light-blue sky, warm golden morning light.
-Composition: the round haybale is on the right side of the frame, in the middle height. Bolinha stands on the grass in the lower left of the frame, three-quarter view, looking at the haybale with a curious smile, both little wings slightly raised. Nobody is behind or on the haybale. The upper part of the frame is open sky.
+Use the attached images as the exact character references: the chick is Chef Bolinha and the baby cow in the barn window is Nuvem. Vertical 9:16 image.
+Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Setting: a cute pastel farm meadow on a sunny midday: a big round golden haybale on soft green grass with one tall sunflower growing right beside it, a white wooden fence behind it, a small red-and-cream barn far in the background, fluffy clouds in a light-blue sky, bright clear midday light.
+Composition: the round haybale is on the right side of the frame, in the middle height, with the tall sunflower on its left edge. Nuvem stands behind the haybale: only her head, neck and front are visible above it, and she leans her big pink snout toward the sunflower, eyes half closed, smelling it happily. Bolinha stands on the grass in the lower left of the frame, three-quarter view, looking at Nuvem with a curious smile, both little wings slightly raised. The upper part of the frame is open sky.
 No text, no logos, no watermark.
 ```
 
-3. Confira o personagem, o formato vertical e o fardo **sem ninguém**. Salve como `imagens/frame_inicio.png`. Esse frame também é o **alvo do loop**.
+3. Confira os dois personagens (a Nuvem igual ao ep02), o girassol encostado no focinho dela e o formato vertical. Salve como `imagens/frame_inicio.png`. Esse frame também é o **alvo do loop**.
 
 ### 5.2 Geração 1 (0–10s)
 
@@ -114,21 +123,21 @@ No text, no logos, no watermark.
    ```
 
 ```
-Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image; keep the character and setting identical.
-Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket.
-Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Only her head, neck and front are visible above the haybale.
-Setting: a cute pastel farm meadow on a sunny morning: a big round golden haybale on soft green grass, a white wooden fence behind it, a small red-and-cream barn far in the background, a few sunflowers, fluffy clouds in a light-blue sky, warm golden morning light.
+Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image; keep the characters and setting identical.
+Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Only Nuvem's head, neck and front are visible above the haybale.
+Setting: a cute pastel farm meadow on a sunny midday: a big round golden haybale on soft green grass with one tall sunflower growing right beside it, a white wooden fence behind it, a small red-and-cream barn far in the background, fluffy clouds in a light-blue sky, bright clear midday light.
 Voices: Bolinha has a cute high-pitched young child voice, sweet and clear. Nuvem has a sweet, calm, slightly lower little girl voice, warm and giggly, and speaks slowly. All dialogue is in Brazilian Portuguese, exactly as written.
 Action:
-(0-1s) Nuvem suddenly pops her head up from behind the haybale, her pink snout close to Bolinha, and moos happily: "Muu!" Bolinha does a small happy hop.
-(1-3s) Bolinha points at Nuvem's pink snout with his little wing and says excitedly: "Olha o nariz da Nuvem!" Nuvem wiggles her snout.
-(3-5s) Bolinha turns to face the camera, touches the tip of his own beak with his wing and asks sweetly: "Cadê o seu nariz?"
-(5-6s) Both look at the camera, smiling and waiting in silence.
-(6-7s) Nuvem nods happily, her golden bell swinging, and says slowly and proudly: "Muuuito bem!"
-(7-9s) Nuvem flaps her floppy ears and asks the camera playfully: "E as orelhas? Cadê?" Bolinha puts both wings on the sides of his head.
-(9-10s) Both look at the camera, smiling and waiting in silence.
+(0-2s) Nuvem sniffs the sunflower with her pink snout, making soft sniffing sounds. Bolinha points at Nuvem's pink snout with his little wing and says excitedly: "Olha o nariz da Nuvem!"
+(2-4s) Nuvem turns to the camera, wiggles her pink snout proudly and says slowly: "Meu nariz cheira!"
+(4-6s) Bolinha turns to face the camera, points his little wing toward the camera and asks sweetly: "Cadê o seu nariz?"
+(6-7s) Both look at the camera, smiling and waiting in silence.
+(7-8s) Nuvem nods happily, her golden bell swinging, and says slowly and proudly: "Muuuito bem!"
+(8-10s) Nuvem sniffs the sunflower again; her pink snout starts to twitch and wiggle as if she is about to sneeze. Bolinha watches her, curious.
 Camera: static medium two-shot at Bolinha's eye level, no cuts.
-Audio: only the dialogue above, a short happy moo, and a soft bell jingle. No background music, no other voices.
+Audio: only the dialogue above, soft sniffing sounds and a soft bell jingle. No background music, no other voices.
 ```
 
 ### 5.3 Geração 2 (continuação até 20s)
@@ -139,24 +148,26 @@ Audio: only the dialogue above, a short happy moo, and a soft bell jingle. No ba
 
 ```
 Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image and continue the same scene; keep both characters, the setting, the lighting and the camera framing identical.
-Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket.
-Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Only her head, neck and front are visible above the haybale.
-Setting: a cute pastel farm meadow on a sunny morning: a big round golden haybale on soft green grass, a white wooden fence behind it, a small red-and-cream barn far in the background, a few sunflowers, fluffy clouds in a light-blue sky, warm golden morning light.
-Voices: Bolinha has a cute high-pitched young child voice, sweet and clear. Nuvem has a sweet, calm, slightly lower little girl voice, warm and giggly. All dialogue is in Brazilian Portuguese, exactly as written.
+Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Only Nuvem's head, neck and front are visible above the haybale.
+Setting: a cute pastel farm meadow on a sunny midday: a big round golden haybale on soft green grass with one tall sunflower growing right beside it, a white wooden fence behind it, a small red-and-cream barn far in the background, fluffy clouds in a light-blue sky, bright clear midday light.
+Voices: Bolinha has a cute high-pitched young child voice, sweet and clear. Nuvem has a sweet, calm, slightly lower little girl voice, warm and giggly, and speaks slowly. All dialogue is in Brazilian Portuguese, exactly as written.
 Action:
-(10-11s) Bolinha, with both wings on the sides of his head, hops and cheers: "Isso! Orelhas!"
-(11-13s) Nuvem flaps her ears happily and one soft ear tickles Bolinha's beak. Bolinha does a tiny cute sneeze: "Atchim!" His feathers puff up into a fluffy round ball and his chef's hat wobbles but stays on his head. Both giggle.
-(13-16s) Bolinha points at Nuvem's snout and says: "Nariz!" and Nuvem wiggles her snout; then he points at her ears and says: "Orelhas!" and Nuvem flaps her ears.
-(16-18s) Nuvem giggles and slowly ducks down behind the haybale until she disappears completely.
-(18-20s) Bolinha stands on the grass in the lower left of the frame in three-quarter view, looking at the empty haybale with a curious smile, both little wings slightly raised, and asks softly: "Cadê a Nuvem?" He holds that pose until the end.
+(10-12s) Nuvem lifts her head up toward the sky and does a tiny cute sneeze upward: "Atchim!" The sunflower bends back and springs forward again with a cartoon boing. Bolinha is startled in a funny way and his feathers puff up into a fluffy round ball; his chef's hat wobbles but stays on his head.
+(12-14s) Both giggle. Bolinha, still puffed up like a ball, points at Nuvem's snout and says laughing: "Foi o nariz!"
+(14-16s) Nuvem looks at the camera, wiggles her pink snout and asks playfully: "E o seu nariz? Cadê?"
+(16-17s) Both look at the camera, smiling and waiting in silence.
+(17-18s) Bolinha does a small happy hop, his feathers settle back to normal, and he cheers: "Isso! Nariz!"
+(18-20s) Nuvem leans her pink snout toward the sunflower again, eyes half closed, smelling it happily, and Bolinha stands on the grass in the lower left of the frame in three-quarter view, looking at her with a curious smile, both little wings slightly raised, exactly like the first frame. They hold that pose until the end.
 Camera: static medium two-shot at Bolinha's eye level, no cuts. Nothing scary.
-Audio: only the dialogue above, the tiny sneeze, soft giggles and a soft bell jingle. No background music, no other voices.
+Audio: only the dialogue above, the tiny sneeze, one cartoon boing, soft giggles, soft sniffing and a soft bell jingle. No background music, no other voices.
 ```
 
 ### 5.4 Continuidade
 
-- As frases de **Setting**, **Voices** e as âncoras dos personagens são idênticas nos dois prompts. Não edite uma sem editar a outra.
-- A pose final da geração 2 precisa bater com `frame_inicio.png`: Bolinha embaixo à esquerda, de 3/4, olhando o fardo vazio à direita.
+- As frases de **Setting**, **Voices** e as âncoras dos personagens são idênticas nos três prompts. Não edite uma sem editar as outras.
+- A pose final da geração 2 precisa bater com `frame_inicio.png`: a Nuvem cheirando o girassol e o Bolinha embaixo à esquerda, de 3/4, olhando para ela.
 - A Nuvem só aparece **de trás do fardo** (cabeça, pescoço e peito). Assim não é preciso ter a referência de corpo inteiro dela ainda.
 
 ### 5.5 Conferir antes de aprovar
@@ -165,11 +176,12 @@ Audio: only the dialogue above, the tiny sneeze, soft giggles and a soft bell ji
 - [ ] Nuvem igual ao ep02 (manchas cinza-claro, topete, focinho rosa, sino dourado com fita azul)
 - [ ] **Falas em português**, com o texto exato e na voz certa (Bolinha agudo, Nuvem mais calma)
 - [ ] As duas pausas depois das perguntas existem (~1s cada)
+- [ ] Na pergunta, o Bolinha aponta para a câmera, e não para o próprio bico
 - [ ] Emenda em 10s sem salto (compare os frames 9,8s e 10,2s)
 - [ ] Sem deformações (asas, olhos, bico, patas, focinho)
 - [ ] Sem texto aleatório na tela nem marca d'água
-- [ ] Espirro engraçado, não assustador
-- [ ] Final com o fardo vazio e o Bolinha na pose inicial (loop)
+- [ ] Espirro para o alto, engraçado e não assustador (ninguém espirra no outro)
+- [ ] Final com a Nuvem cheirando o girassol e o Bolinha na pose inicial (loop)
 
 ## 6. Trilha de fundo
 
@@ -198,8 +210,9 @@ Sem voz e sem letra. A trilha fica **baixinha**, por baixo das falas do Veo.
 
 | Tempo | Efeito | Busca |
 |---|---|---|
-| 0,0s | Mugido curto e alegre | "vaca", "cow moo" |
-| 11,5s | "Puf" das penas estufando | "poof", "puff" |
+| 0,0s | Fungada curta "snif, snif" | "sniff", "fungada" |
+| 10,5s | "Boing" do girassol | "boing", "cartoon spring" |
+| 10,8s | "Puf" das penas estufando | "poof", "puff" |
 
 ## 7. Montagem
 
@@ -217,16 +230,16 @@ ffmpeg -i videos/completo_20s.mp4 -i videos/trilha.mp3 -filter_complex "[0:v]sca
 2. Importe `completo_20s.mp4` (ou `parte1` + `parte2`). **Mantenha** o áudio original (são as falas).
 3. Importe `trilha.mp3` com volume em torno de 20%. As falas precisam ficar bem claras por cima.
 4. **Loop:** último frame igual a `frame_inicio.png`. Corte seco no fim, sem fade.
-5. Legenda (opcional) só nas duas perguntas: "Cadê o seu nariz?" e "E as orelhas? Cadê?", no terço superior.
+5. Legenda (opcional) só nas duas perguntas: "Cadê o seu nariz?" e "E o seu nariz? Cadê?", no terço superior.
 6. Exporte em 1080p, 30 fps → `videos/final.mp4`.
 
-Assista 3 vezes em loop no celular. As duas pausas têm de dar tempo de apontar, e a emenda "Cadê a Nuvem?" → "Muu!" tem de soar natural.
+Assista 3 vezes em loop no celular. As duas pausas têm de dar tempo de apontar, e a emenda "snif…" → "Olha o nariz da Nuvem!" tem de soar natural.
 
 ## 8. Publicação (YouTube Studio)
 
 | Campo | Valor |
 |---|---|
-| Título | `Cadê o Nariz? Chef Bolinha e a Vaquinha Nuvem 🐮👃 \| Desenho Educativo Infantil` |
+| Título | `Cadê o Nariz? com o Chef Bolinha e a Vaquinha Nuvem 🐮 \| Aprendendo Brincando` |
 | Descrição | (abaixo) |
 | Playlist | **Fazendinha do Chef Bolinha 🐮** |
 | Público | **Sim, é conteúdo para crianças** |
@@ -246,7 +259,7 @@ Assista 3 vezes em loop no celular. As duas pausas têm de dar tempo de apontar,
 **Descrição (copiar):**
 
 ```
-Cadê o nariz? E as orelhas? 👃👂 O Chef Bolinha e a Vaquinha Nuvem brincam de achar as partes do rosto. Aponte junto com a criança! 🐮🐥
+Cadê o nariz? 👃 A Vaquinha Nuvem cheira um girassol e... atchim! O Chef Bolinha e a Nuvem brincam de achar o nariz. Aponte junto com a criança! 🐮🐥
 Vídeo educativo para bebês e crianças pequenas. Novo episódio todo dia!
 
 #desenhoinfantil #shorts #chefbolinha
@@ -255,7 +268,7 @@ Vídeo educativo para bebês e crianças pequenas. Novo episódio todo dia!
 **Tags (copiar):**
 
 ```
-desenho infantil, vídeo educativo para bebês, vídeo para crianças, partes do corpo, cadê o nariz, nariz e orelhas, aprender brincando, chef bolinha, vaquinha nuvem, vaquinha
+desenho infantil, vídeo educativo para bebês, vídeo para crianças, partes do corpo, cadê o nariz, partes do rosto, aprender brincando, chef bolinha, vaquinha nuvem, vaquinha
 ```
 
 ## 9. Checklist de publicação

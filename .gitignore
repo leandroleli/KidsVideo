@@ -9,3 +9,6 @@ Thumbs.db
 
 # Vídeo de referência do TikTok (conteúdo de terceiros, não redistribuir)
 WhatsApp Video*.mp4
+
+# Python
+__pycache__/

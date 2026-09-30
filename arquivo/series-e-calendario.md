@@ -146,6 +146,6 @@ Rotação semanal (nunca a mesma série em dois dias seguidos):
 | Dez Mirtilos × Uvas Roxas | Frutinhas azuis/roxas parecidas na tela | Mirtilos no pote de vidro da padaria; uvas no cacho, na feira |
 | Sopa (ep01) × qualquer "mágica" | Repetir o brilho mágico vira fórmula | Nenhum episódio novo usa "brilhos saindo da panela" como surpresa |
 
-## Músicas conhecidas a evitar (letra, melodia ou estrutura)
+## Músicas conhecidas a evitar
 
-Seu Lobato ("ia-ia-ô"), Cinco Patinhos, **Pintinho Amarelinho** (atenção: o Bolinha é um pintinho amarelo, então nunca use essa expressão na letra), Galinha Pintadinha, Sapo Não Lava o Pé, Sapo Cururu, Borboletinha, Atirei o Pau no Gato, A Dona Aranha, Parabéns pra Você, Brilha Brilha Estrelinha, Ciranda Cirandinha, Baby Shark, Eguinha Pocotó.
+Movida para o [`instrucao.md`](../instrucao.md#músicas-conhecidas-a-evitar).

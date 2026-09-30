@@ -6,7 +6,7 @@ Baseado no vídeo do TikTok (@ai.ghost29) que está nesta pasta (fora do git). A
 >
 > Arquivos de apoio:
 > - [`personagem.md`](personagem.md): bíblia do personagem e prompt âncora
-> - [`series-e-calendario.md`](series-e-calendario.md): séries, temas e calendário
+> - [`calendario.md`](calendario.md): calendário a partir do ep03 (pares apresentação + educativo)
 
 ---
 
@@ -45,7 +45,7 @@ Baseado no vídeo do TikTok (@ai.ghost29) que está nesta pasta (fora do git). A
    - a duração e o formato
    - como são os títulos e as thumbnails
 
-> **Importante:** use esses canais só como **inspiração**. Não copie personagens, músicas nem nomes deles, porque isso gera strike de direitos autorais. A lista de músicas conhecidas a evitar está em [`series-e-calendario.md`](series-e-calendario.md).
+> **Importante:** use esses canais só como **inspiração**. Não copie personagens, músicas nem nomes deles, porque isso gera strike de direitos autorais. A lista de músicas conhecidas a evitar está [mais abaixo](#músicas-conhecidas-a-evitar).
 
 ---
 
@@ -63,7 +63,7 @@ Para ter expectativas realistas:
 
 ## Passo 3: Roteiro e letra
 
-1. Escolha o próximo tema em [`series-e-calendario.md`](series-e-calendario.md).
+1. Escolha o próximo episódio em [`calendario.md`](calendario.md).
 2. Copie `episodios/_modelo/` para a pasta do episódio.
 3. Peça o roteiro ao ChatGPT ou ao Claude com o prompt abaixo e cole o resultado nas seções 2 a 4 do `episodio.md`.
 
@@ -147,7 +147,7 @@ same scene"), repetindo nos dois a descrição âncora do personagem e a mesma f
    - **Título:** `[Tema] do Chef Bolinha 🍲✨ | Musiquinha Infantil`. Troque o emoji pelo da série.
    - **Descrição:** 2 ou 3 linhas + `#musicainfantil #shorts #chefbolinha`
    - **Tags:** `musiquinha infantil, música para bebê, música para crianças` + tema
-   - **Playlist:** a da série (ver [`series-e-calendario.md`](series-e-calendario.md))
+   - **Playlist:** a indicada na seção 8 do `episodio.md` (ordem dos episódios em [`calendario.md`](calendario.md))
    - **Público:** **"Sim, é conteúdo para crianças"**. Isso é **obrigatório por lei (COPPA)**, e marcar errado pode gerar multa e derrubar o canal.
    - **Conteúdo alterado/sintético:** **Sim**
    - **Idioma:** Português (Brasil). **Categoria:** Educação.
@@ -176,9 +176,17 @@ Desde 2025 o YouTube recusa monetização de canais com vídeos de IA "em série
 | Personagens convidados | Os animais podem voltar em outras séries (ex.: a Vaquinha Nuvem no Bolo) |
 
 **Outros cuidados:**
-- **Direitos autorais:** nada de usar personagens, músicas ou nomes de canais existentes. Veja a lista de músicas a evitar em [`series-e-calendario.md`](series-e-calendario.md).
+- **Direitos autorais:** nada de usar personagens, músicas ou nomes de canais existentes. Veja a [lista de músicas a evitar](#músicas-conhecidas-a-evitar).
 - **Qualidade para criança:** revise cada vídeo. Nada assustador, estranho ou inadequado, porque o YouTube é rígido com conteúdo infantil.
 - **Custos:** calcule quanto gasta de IA por vídeo (plano do Gemini + Suno) e compare com o que o canal ganha.
+
+---
+
+## Músicas conhecidas a evitar
+
+Nada de letra, melodia ou estrutura parecida com:
+
+Seu Lobato ("ia-ia-ô"), Cinco Patinhos, **Pintinho Amarelinho** (atenção: o Bolinha é um pintinho amarelo, então nunca use essa expressão na letra), Galinha Pintadinha, Sapo Não Lava o Pé, Sapo Cururu, Borboletinha, Atirei o Pau no Gato, A Dona Aranha, Parabéns pra Você, Brilha Brilha Estrelinha, Ciranda Cirandinha, Baby Shark, Eguinha Pocotó.
 
 ---
 

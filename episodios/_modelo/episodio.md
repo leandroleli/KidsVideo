@@ -11,7 +11,12 @@ Referência do personagem: [`../../personagem/bolinha_referencia.png`](../../per
 
 | Campo | Valor |
 |---|---|
-| Série | Comidas / Cores / Animais / Números / Rotina |
+| Tipo | Apresentação (musiquinha) / Educativo (falas e interação) |
+| Amigo | [nome] (novo / apresentado no epXX) |
+| Área de aprendizagem | (lista da seção 5 da skill) |
+| Objetivo | A criança consegue… (uma coisa observável, que cabe em 20s) |
+| Idade | 1–2 anos / 2–4 anos |
+| Por que funciona para essa idade | |
 | Tema | |
 | Duração-alvo | 20s (geração 1 de ~10s + continuação até 20s) |
 | Data de publicação | AAAA-MM-DD |
@@ -19,16 +24,22 @@ Referência do personagem: [`../../personagem/bolinha_referencia.png`](../../per
 
 ## 2. Ficha de variação
 
-Compare com os últimos 3 episódios. Se 3 ou mais itens coincidirem, mude.
+Compare com os últimos 3 episódios (os 2 anteriores ficam nas colunas). Se 3 ou mais itens coincidirem, mude. O loop nunca repete o do episódio anterior.
 
-| Item | Este episódio |
-|---|---|
-| Melodia (tonalidade, contorno, motivo) | |
-| Andamento (BPM) | |
-| Instrumento principal | |
-| Cenário | |
-| Estrutura musical | acumulativa / pergunta e resposta / onomatopeia / contagem / ninar |
-| Momento surpresa | |
+| Item | Este episódio | EpN-1 | EpN-2 |
+|---|---|---|---|
+| Tipo | | | |
+| Amigo | | | |
+| Área | | | |
+| Objetivo | | | |
+| Cenário | | | |
+| Iluminação | | | |
+| Estrutura (musical ou de falas) | | | |
+| Instrumento principal | | | |
+| Andamento (BPM) | | | |
+| Tonalidade | | | |
+| Momento surpresa | | | |
+| Final / loop | | | |
 
 ## 3. Roteiro por cena
 

@@ -5,7 +5,7 @@ description: Cria episódios educativos de 20 segundos para o canal infantil Che
 
 # Chef Bolinha — Roteirista de Episódios Educativos
 
-## 1. MISSÃO
+# 1. MISSÃO
 
 Você é o roteirista educativo do canal infantil **Chef Bolinha**.
 
@@ -168,6 +168,7 @@ Escolha uma:
 - números e quantidades;
 - formas e cores;
 - natureza e animais;
+- alimentos e cozinha (frutas, legumes e objetos da cozinha);
 - corpo e movimento;
 - emoções e convivência;
 - rotina e autocuidado;
@@ -399,6 +400,15 @@ Esta seção tem prioridade sobre as seções 4 (Modo C) e 25.
 ## 22.1 Onde salvar
 
 - Crie `episodios/epXX-<slug>/episodio.md` a partir do `episodios/_modelo/` e preencha com o conteúdo abaixo.
+- O `_modelo` define a ordem das seções do arquivo. O conteúdo de 22.2, 22.3 e 22.4 entra nelas assim:
+  - **1. Resumo:** tipo, amigo, área, objetivo, idade, por que funciona e como o conceito aparece;
+  - **2. Ficha de variação:** a ficha de 22.4, comparada com os 2 episódios anteriores;
+  - **3. Roteiro por cena:** a tabela de 20 segundos;
+  - **4. Letra** (apresentação) ou **Falas** (educativo);
+  - **5. Geração no Gemini:** referência do amigo (apresentação), prompt da primeira imagem e prompts de vídeo;
+  - **6. Música** (Suno) ou **Trilha de fundo**, com os efeitos sonoros;
+  - **7. Montagem:** inclui a nota de montagem do educativo;
+  - **8 a 10:** publicação, checklist e pós-publicação, com o título no padrão do tipo.
 - Se for apresentação, crie também `personagem/amigos/<slug>.md`.
 - Nunca altere episódios já publicados (ep01, ep02) nem sobrescreva roteiros existentes sem autorização.
 

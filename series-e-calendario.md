@@ -134,7 +134,7 @@ Rotação semanal (nunca a mesma série em dois dias seguidos):
 
 **Banco para a semana 5:** Uvas Roxas, Gelatina Arco-Íris (Cores), Contagem do Forno (Números), Arrumar a Cozinha (Rotina). Os próximos temas de Comidas e Animais ainda precisam ser criados.
 
-> **Capacidade:** 1 episódio = 3 clipes do Veo. Com cerca de 3 gerações por dia no plano Pro, sobra **zero margem** para refazer. Tente manter **2 ou 3 episódios de folga** (gerados com antecedência, inclusive pelo Flow) para não furar o calendário.
+> **Capacidade:** 1 episódio = 2 gerações do Veo, e o Gemini permite **2 por dia**. A produção fica exatamente no limite, **sem nenhuma margem** para refazer. Para não furar o calendário: use o **Flow** para refazer e para adiantar episódios, e tente manter **2 ou 3 episódios prontos de folga**. Se não der, reduza para 5 ou 6 vídeos por semana: consistência vale mais que volume.
 
 ## Pares parecidos demais (atenção)
 

@@ -66,7 +66,7 @@ Cenários em tons pastel (rosa, menta, creme) combinam com a paleta. Evite fundo
 
 ## Referência limpa no Gemini
 
-Objetivo: uma imagem sem marca d'água, fundo neutro, corpo inteiro, para anexar em todo clipe.
+Objetivo: uma imagem sem marca d'água, fundo neutro, corpo inteiro, para anexar em todo episódio.
 
 1. Abra o **Gemini** → modo de criação de imagem.
 2. Anexe `personagem/bolinha_referencia.png`.

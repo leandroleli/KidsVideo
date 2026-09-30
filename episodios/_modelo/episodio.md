@@ -13,7 +13,7 @@ Referência do personagem: [`../../personagem/bolinha_referencia.png`](../../per
 |---|---|
 | Série | Comidas / Cores / Animais / Números / Rotina |
 | Tema | |
-| Duração-alvo | 24s (3 clipes de 8s) |
+| Duração-alvo | 20s (geração 1 de ~10s + continuação até 20s) |
 | Data de publicação | AAAA-MM-DD |
 | Status | roteiro / gerando / publicado |
 
@@ -32,13 +32,13 @@ Compare com os últimos 3 episódios. Se 3 ou mais itens coincidirem, mude.
 
 ## 3. Roteiro por cena
 
-| Tempo | Clipe | Cena (visual) | Áudio |
+| Tempo | Geração | Cena (visual) | Áudio |
 |---|---|---|---|
-| 0:00–0:01 | 1 | **Gancho:** personagem já em ação + som forte | |
-| 0:01–0:08 | 1 | | Refrão (1ª vez) |
-| 0:08–0:16 | 2 | Estrofe + momento surpresa | Estrofe |
-| 0:16–0:21 | 3 | | Refrão (2ª vez) |
-| 0:21–0:24 | 3 | **Loop:** termina na mesma pose/cena do 1º frame | |
+| 0:00–0:01 | 1 | **Gancho:** personagem **já visível** e em ação + som forte (não comece com objeto, explosão ou cenário vazio) | |
+| 0:01–0:06 | 1 | | Refrão (1ª vez) |
+| 0:06–0:12 | 1 → 2 | Estrofe + momento surpresa | Estrofe |
+| 0:12–0:18 | 2 | | Refrão (2ª vez) |
+| 0:18–0:20 | 2 | **Loop:** termina na mesma pose/cena do 1º frame | |
 
 ## 4. Letra
 
@@ -47,81 +47,80 @@ Compare com os últimos 3 episódios. Se 3 ou mais itens coincidirem, mude.
 ```
 ```
 
-**Letra completa, por clipe:**
+**Letra completa, por geração:**
 
-| Clipe | Tempo | Trecho |
+| Geração | Tempo | Trecho |
 |---|---|---|
-| 1 | 0–8s | |
-| 2 | 8–16s | |
-| 3 | 16–24s | |
+| 1 | 0–10s | |
+| 2 | 10–20s | |
+
+Dica: escolha um BPM em que 10s feche em compassos inteiros (96 BPM → 1 compasso = 2,5s; 120 BPM → 2s).
 
 Regras: frases curtas, palavras simples (1 a 4 anos), rima fácil, onomatopeia ou contagem, nada parecido com músicas infantis conhecidas.
 
 ## 5. Geração no Gemini (Veo)
 
-**Limite atual:** clipes de **até 8s** por geração. No plano AI Pro são **cerca de 3 gerações por dia** (confira o contador no app). Por isso o padrão é **3 clipes × 8s = 24s**. Se precisar refazer um clipe, deixe para o dia seguinte ou use o **Flow** (labs.google/flow) com o mesmo plano.
+**Limite:** **2 gerações de vídeo por dia**, de ~10s cada. A 2ª geração, feita a partir do último frame da 1ª, devolve o **vídeo inteiro de 20s** já emendado (foi assim no ep01). Um episódio gasta as 2 gerações do dia, então **não sobra nenhuma para refazer**. Se algo sair errado, refaça no **Flow** (labs.google/flow) ou no dia seguinte.
 
-### 5.1 Preparar o 1º frame
+A imagem do 1º frame (5.1) é feita no modo de **imagem** e não gasta o limite de vídeo.
 
-1. No Gemini (criação de imagem), anexe a referência do personagem e peça a cena de abertura **em 9:16**:
+### 5.1 Preparar o 1º frame (imagem)
+
+1. No Gemini (criação de imagem), anexe a referência do personagem e peça a cena de abertura **em 9:16**, com o personagem **já visível** na pose inicial:
 
    ```
    [prompt da imagem do 1º frame: cenário + pose inicial + âncora do personagem]
    ```
 
-2. Salve como `imagens/frame_inicio.png`. Esse frame também é o **frame do loop**: o clipe 3 precisa terminar igual a ele.
+2. Salve como `imagens/frame_inicio.png`. Esse frame também é o **alvo do loop**: a geração 2 precisa terminar igual a ele.
 
-### 5.2 Gerar cada clipe
+### 5.2 Geração 1 (0–10s)
 
-1. Gemini → **Vídeo** (Veo) → anexe a imagem indicada no clipe (vira o 1º frame).
-2. Escolha **9:16** (vertical) se o seletor aparecer. Se o app só oferecer 16:9, gere no **Flow**, que tem formato vertical.
-3. Cole o prompt do clipe **inteiro** (já contém a âncora do personagem).
-4. Baixe e salve em `videos/clipeN.mp4`.
-5. Extraia o último frame para usar no próximo clipe:
+1. Gemini → **Vídeo** → anexe `imagens/frame_inicio.png`.
+2. Cole o prompt. Ele começa com `Start exactly from the attached image`: sem essa frase, o Gemini usa a imagem só como referência e inventa outra abertura.
+3. Baixe → `videos/parte1.mp4`.
+4. Extraia o último frame:
 
    ```
-   ffmpeg -sseof -0.1 -i videos/clipeN.mp4 -frames:v 1 imagens/clipeN_ultimo_frame.png
+   ffmpeg -sseof -0.1 -i videos/parte1.mp4 -frames:v 1 imagens/parte1_ultimo_frame.png
    ```
 
-**Clipe 1 (0–8s)**, imagem inicial: `imagens/frame_inicio.png`
+```
+[prompt: Vertical 9:16, high-quality 3D kids animation... Start exactly from the attached image... âncora do personagem + Setting + Action + Camera + Audio]
+```
+
+### 5.3 Geração 2 (continuação até 20s)
+
+1. Gemini → **Vídeo** → anexe `imagens/parte1_ultimo_frame.png`.
+2. Cole o prompt (`Start exactly from the attached image and continue the same scene...`).
+3. Baixe → `videos/completo_20s.mp4`. Se vierem só os 10s novos, salve como `videos/parte2.mp4` e junte na montagem.
 
 ```
 [prompt]
 ```
 
-**Clipe 2 (8–16s)**, imagem inicial: `imagens/clipe1_ultimo_frame.png`
+### 5.4 Continuidade
 
-```
-[prompt]
-```
+- Mesmo cenário, mesma hora do dia e mesma luz nos dois prompts (copie a frase de **Setting** igual).
+- Câmera sem cortes. Movimentos suaves.
+- A **1ª frase da Action** descreve o personagem já em cena. Nada de "sparkles explode and Bolinha pops out": foi isso que deixou o ep01 sem o personagem no 1º segundo.
+- O áudio do Veo é descartado na montagem (música vem do Suno). Mesmo assim, peça no prompt uma música no mesmo BPM, para os movimentos já saírem no ritmo.
 
-**Clipe 3 (16–24s)**, imagem inicial: `imagens/clipe2_ultimo_frame.png`
-
-```
-[prompt]
-```
-
-### 5.3 Continuidade
-
-- O último frame de um clipe é o 1º do próximo (passo 5 acima).
-- Mesmo cenário, mesma hora do dia e mesma luz em todos os prompts (copie a frase de cenário igual).
-- Câmera sem cortes dentro do clipe. Movimentos suaves.
-- O áudio do Veo é descartado na montagem. Os prompts pedem "no dialogue, no music" para não atrapalhar.
-
-### 5.4 Conferir antes de aprovar cada clipe
+### 5.5 Conferir antes de aprovar
 
 - [ ] Personagem igual à referência (chapéu com estrela, lenço vermelho, avental azul de bolinhas, olhos turquesa)
+- [ ] Emenda em 10s sem salto (compare os frames 9,8s e 10,2s)
 - [ ] Sem deformações (asas, olhos, bico, patas; nada "derretendo")
 - [ ] Sem texto aleatório na tela
-- [ ] Sem marca d'água de terceiros (Dreamina etc.)
+- [ ] Sem marca d'água
 - [ ] Nada assustador ou perigoso
-- [ ] Último frame limpo (sem borrão) para servir de início ao próximo clipe
+- [ ] Último frame igual ao `frame_inicio.png` (loop)
 
 ## 6. Música
 
 **Decisão padrão:** a música inteira é gerada no **Suno**, numa faixa única, e sincronizada na edição. O áudio do Veo é descartado.
 
-Motivo: o Veo gera o áudio clipe por clipe, então a voz, o tom e o andamento mudam entre clipes. Uma faixa única garante voz e melodia consistentes.
+Motivo: o Veo faz bem música de fundo e falas curtas, mas cantar uma letra exata em português, com a mesma melodia do começo ao fim, é arriscado, e com 2 gerações por dia não dá para refazer. O Suno canta a letra exata numa faixa única, com a voz da Persona.
 
 1. Suno → **Custom** → cole a letra (com as tags abaixo) e o estilo.
 2. Se já existir a Persona "Chef Bolinha", selecione-a.
@@ -147,9 +146,9 @@ Efeitos sonoros (onomatopeias de animais, "tchan", brilhos): use a biblioteca de
 ## 7. Montagem (CapCut)
 
 1. Projeto **9:16**, 1080×1920, 30 fps.
-2. Coloque os clipes 1, 2 e 3 em sequência. **Silencie** o áudio original dos clipes.
-3. Importe `musica.mp3`. Corte para começar **no 1º som** (sem silêncio) e para durar 24s.
-4. Ajuste a velocidade dos clipes (95–105%) para que as ações caiam nos tempos da letra.
+2. Importe `completo_20s.mp4` (ou `parte1` + `parte2` em sequência). **Silencie** o áudio original.
+3. Importe `musica.mp3`. Corte para começar **no 1º som** (sem silêncio) e para durar 20s.
+4. Ajuste a velocidade de trechos do vídeo (95–105%) para que as ações caiam nos tempos da letra.
 5. Adicione os efeitos sonoros marcados no roteiro.
 6. **Loop:** o último frame deve estar igual ao `frame_inicio.png`. Se sobrar diferença, faça um corte seco (sem fade) no último tempo da música, sem fade-out de áudio.
 7. Legenda com a letra (fonte grande e arredondada) nos refrões. Ajuda quem assiste sem som.
@@ -196,12 +195,12 @@ musiquinha infantil, música para bebê, música para crianças, música infanti
 - [ ] Divulgação de conteúdo alterado/sintético (IA) marcada
 - [ ] Letra e melodia originais, sem semelhança com músicas conhecidas
 - [ ] Etapa "Verificações" do upload sem aviso de direitos autorais
-- [ ] Vídeo final sem marca d'água de terceiros (ver nota)
+- [ ] Vídeo final sem marca d'água (ver nota)
 - [ ] Ferramentas usadas permitem uso comercial (Gemini/Veo e Suno pago)
 - [ ] Título, descrição e playlist conforme este MD
 - [ ] Verificar no Studio → Conteúdo → Restrições 24h após postar
 
-> **Nota sobre o selo "Veo":** vídeos do Gemini saem com um selo visível "Veo", que é a identificação de IA do Google (além da marca invisível SynthID). **Não cubra nem remova esse selo.** Ele funciona como rótulo de IA. Se quiser o vídeo sem selo, gere onde o seu plano exportar sem ele e confira no próprio app. A regra "sem marca d'água" vale para marcas de terceiros, como Dreamina e capafy.
+> **Marca d'água:** o ep01, gerado no Gemini, saiu **sem selo visível** (o Google mantém só a marca invisível SynthID). Se algum dia aparecer um selo "Veo" visível, não o cubra: ele é o rótulo de IA do Google. A regra vale para marcas de terceiros, como Dreamina e capafy.
 
 ## 10. Pós-publicação
 

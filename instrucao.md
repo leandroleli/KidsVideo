@@ -16,7 +16,7 @@ Baseado no vídeo do TikTok (@ai.ghost29) que está nesta pasta (fora do git). A
 |---|-------|-----------|
 | 1 | Achar canais de referência que estão bombando | YouTube |
 | 2 | Entender quanto o YouTube paga | Google |
-| 3 | Escrever roteiro e letra de um Short de 20–30s | ChatGPT (ou Claude) + `episodio.md` |
+| 3 | Escrever roteiro e letra de um Short de 20s | ChatGPT (ou Claude) + `episodio.md` |
 | 4 | Gerar os clipes de vídeo | **Gemini (Veo)**; alternativas: Dreamina, capafy.ai |
 | 5 | Gerar a música cantada | Suno |
 | 6 | Montar, publicar e medir | CapCut + YouTube Studio |
@@ -77,7 +77,7 @@ Tema: [ex: a Vaquinha Nuvem na fazendinha]
 Cenário: [da série]  |  Estrutura musical: [da série]  |  Andamento: [BPM da série]
 
 Regras:
-- Duração de 24s, dividida em 3 clipes de 8s (limite do Veo). Timestamps por cena.
+- Duração de 20s, dividida em 2 partes de 10s (limite do Veo no Gemini). Timestamps por cena.
 - Gancho no 1º segundo: personagem já em ação e música tocando, sem introdução.
 - Letra original: frases curtas, palavras simples (1 a 4 anos), rima fácil,
   onomatopeias ou contagem conforme a série.
@@ -86,10 +86,12 @@ Regras:
   Pintinho Amarelinho, Galinha Pintadinha, Borboletinha etc.).
 - Um momento surpresa engraçado (sem "brilho mágico na panela").
 - Loop: a última cena termina na mesma pose e enquadramento da primeira.
-- Diga qual trecho da letra cai em cada clipe.
+- Diga qual trecho da letra cai em cada parte (0–10s e 10–20s).
+- Na 1ª cena o personagem já está visível e em ação (nada de explosão antes dele).
 
-No final, gere um prompt de vídeo em inglês para cada clipe (Clipe 1, 2, 3), repetindo
-em todos a descrição âncora do personagem e a mesma frase de cenário.
+No final, gere 2 prompts de vídeo em inglês (Parte 1: começa com "Start exactly from
+the attached image"; Parte 2: "Start exactly from the attached image and continue the
+same scene"), repetindo nos dois a descrição âncora do personagem e a mesma frase de cenário.
 ```
 
 **Dicas:**
@@ -101,18 +103,20 @@ em todos a descrição âncora do personagem e a mesma frase de cenário.
 ## Passo 4: Gerar os clipes no Gemini (Veo)
 
 1. Abra o **Gemini** (gemini.google.com ou app) com a conta do plano Google AI.
-2. **Limites atuais:** cada clipe tem **até 8s**, e o plano AI Pro permite **cerca de 3 vídeos por dia** (confira no app). Por isso o padrão é **3 clipes = 24s**.
+2. **Limites atuais:** **2 gerações de vídeo por dia**, de ~10s cada. Por isso o padrão é **1 episódio de 20s por dia**: geração 1 (0–10s) + continuação (até 20s).
 3. Primeiro gere a **imagem do 1º frame** (Gemini, criação de imagem) anexando a referência do personagem.
-4. Em **Vídeo**, anexe a imagem (ela vira o 1º frame), escolha **9:16** e cole o prompt do clipe.
-5. Para o clipe seguinte, use o **último frame** do anterior como imagem inicial:
+4. Em **Vídeo**, anexe a imagem e cole o prompt da parte 1. O prompt começa com `Start exactly from the attached image`: sem essa frase, o Gemini usa a imagem só como referência de personagem e inventa a abertura.
+5. Para a parte 2, anexe o **último frame** da parte 1 e peça para continuar. O Gemini devolve o **vídeo inteiro de 20s** já emendado (testado no ep01):
 
    ```
-   ffmpeg -sseof -0.1 -i videos/clipe1.mp4 -frames:v 1 imagens/clipe1_ultimo_frame.png
+   ffmpeg -sseof -0.1 -i videos/parte1.mp4 -frames:v 1 imagens/parte1_ultimo_frame.png
    ```
 
 6. O passo a passo completo, com os prompts prontos, fica na seção 5 de cada `episodio.md`.
 
-> **Selo "Veo":** os vídeos do Gemini saem com um selo visível "Veo" (identificação de IA do Google) e a marca invisível SynthID. Não cubra nem remova o selo.
+> **Marca d'água:** o ep01 saiu do Gemini **sem selo visível** (fica só a marca invisível SynthID). Se algum dia aparecer um selo "Veo" visível, não o cubra: ele é o rótulo de IA do Google.
+>
+> **Sem margem:** as 2 gerações do dia são o episódio inteiro. Se algo sair errado, refaça no Flow ou no dia seguinte.
 
 **Alternativas:**
 - **Flow** (labs.google/flow): mesmo Veo, com mais controle de frames e formato vertical.
@@ -124,7 +128,7 @@ em todos a descrição âncora do personagem e a mesma frase de cenário.
 
 ## Passo 5: Gerar a música (Suno)
 
-1. A música inteira é feita no **Suno**, numa faixa única. Isso garante a mesma voz e melodia do começo ao fim. O áudio dos clipes do Veo é descartado.
+1. A música inteira é feita no **Suno**, numa faixa única. Isso garante a mesma voz e melodia do começo ao fim. O áudio do Veo é descartado (no ep01 ele fez bem a música de fundo e as falas, mas cantar uma letra exata é arriscado quando não dá para refazer).
 2. Use a **Persona "Chef Bolinha"** para manter a voz entre episódios (criada no ep02).
 3. Uso comercial exige **plano pago** do Suno.
 4. O estilo e a letra com tags ficam na seção 6 de cada `episodio.md`.
@@ -135,7 +139,7 @@ em todos a descrição âncora do personagem e a mesma frase de cenário.
 
 1. **Montagem no CapCut** (seção 7 do `episodio.md`):
    - projeto 9:16;
-   - clipes silenciados e música sincronizada;
+   - áudio do vídeo silenciado e música sincronizada;
    - efeitos sonoros;
    - legenda nos refrões;
    - corte seco no final para fechar o loop.
@@ -186,7 +190,7 @@ Cada `episodio.md` tem uma cópia deste checklist. Marque lá.
 - [ ] Divulgação de conteúdo alterado/sintético (IA) marcada
 - [ ] Letra e melodia originais, sem semelhança com músicas conhecidas (risco de Content ID)
 - [ ] Etapa "Verificações" do upload sem aviso de direitos autorais
-- [ ] Vídeo final sem marca d'água de terceiros (o selo "Veo" do Google fica)
+- [ ] Vídeo final sem marca d'água
 - [ ] Ferramentas usadas permitem uso comercial (Gemini/Veo e Suno pago)
 - [ ] Título, descrição e playlist conforme o template / `episodio.md`
 - [ ] Verificar no Studio → Conteúdo → Restrições 24h após postar

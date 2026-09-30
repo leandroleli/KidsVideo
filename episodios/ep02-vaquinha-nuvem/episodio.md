@@ -82,11 +82,11 @@ Composition: Bolinha stands on the grass in the lower center of the frame, three
 No text, no logos, no watermark.
 ```
 
-3. Confira o personagem, o formato vertical e a janela **vazia**. Salve como `imagens/frame_inicio.png`. Esse frame também é o **alvo do loop**.
+3. Confira o personagem, o formato vertical e a janela **vazia**. Salve como `imagens/frame_inicio.jpg`. Esse frame também é o **alvo do loop**.
 
 ### 5.2 Geração 1 (0–10s)
 
-Gemini → **Vídeo** → anexe `imagens/frame_inicio.png` → cole o prompt → baixe como `videos/parte1.mp4`.
+Gemini → **Vídeo** → anexe `imagens/frame_inicio.jpg` → cole o prompt → baixe como `videos/parte1.mp4`.
 
 ```
 Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image; keep the character and setting identical.
@@ -123,7 +123,7 @@ Audio: the same cheerful ukulele music and hand claps, about 96 BPM, one big cow
 ### 5.4 Continuidade
 
 - As frases de **Setting** e as âncoras dos personagens são idênticas nos prompts de vídeo. Não edite uma sem editar a outra.
-- A pose final da geração 2 precisa bater com `frame_inicio.png` (Bolinha embaixo no centro, de 3/4, olhando para a janela vazia no canto superior esquerdo).
+- A pose final da geração 2 precisa bater com `frame_inicio.jpg` (Bolinha embaixo no centro, de 3/4, olhando para a janela vazia no canto superior esquerdo).
 
 ### 5.5 Conferir antes de aprovar
 
@@ -208,7 +208,7 @@ O Suno costuma gerar mais de 20s. Você vai cortar na montagem. Se ele não cant
    - Nuvem sumindo = cerca de 18s.
    - Use velocidade de 95–105% em trechos do vídeo para ajustar.
 5. Adicione os efeitos da tabela acima.
-6. **Loop:** o último frame deve ser praticamente igual a `frame_inicio.png`. Corte seco no final, sem transição.
+6. **Loop:** o último frame deve ser praticamente igual a `frame_inicio.jpg`. Corte seco no final, sem transição.
 7. Legenda com a letra nos refrões (fonte arredondada, grande, contorno escuro), no terço superior.
 8. Exporte em 1080p, 30 fps → `videos/final.mp4`.
 9. Assista 3 vezes em loop no celular. A emenda "Cadê?" → "MUU!" tem de soar natural.

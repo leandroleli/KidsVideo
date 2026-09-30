@@ -1,0 +1,11 @@
+# Sistema
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Temporários de edição
+*.tmp
+~$*
+
+# Vídeo de referência do TikTok (conteúdo de terceiros, não redistribuir)
+WhatsApp Video*.mp4

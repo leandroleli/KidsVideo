@@ -164,16 +164,16 @@ Desde 2025 o YouTube recusa monetização de canais com vídeos de IA "em série
 
 | Eixo | Como variar |
 |---|---|
-| Série | Nunca a mesma série em dois dias seguidos (rotação no calendário) |
-| Cenário | Um por série: cozinha, horta/feira, fazenda, padaria/mercadinho, casa |
+| Par | Apresentação (musiquinha com amigo novo) e educativo (falas com o mesmo amigo), sempre em sequência. O tipo de amigo varia entre pares: animal, fruta, objeto da cozinha |
+| Cenário | Um por par (o educativo continua o cenário da apresentação), nunca repetido em pares seguidos: cozinha, horta, fazenda, lagoa, jardim, rio, parque |
 | Luz / hora do dia | Manhã, meio-dia, tarde dourada, noite |
-| Estrutura musical | Acumulativa, pergunta e resposta, onomatopeia, contagem, passo a passo/ninar |
+| Estrutura | Apresentação: acumulativa, pergunta e resposta, onomatopeia, contagem, passo a passo/ninar. Educativo: pergunta e resposta falada, brincadeira de achar, contagem, imitação |
 | Instrumento | Marimba, piano de brinquedo, ukulele, glockenspiel, violão/caixinha de música |
-| Andamento | 70 a 120 BPM conforme a série |
+| Andamento | 70 a 120 BPM, sem repetir em episódios seguidos |
 | Tonalidade | Não repetir em episódios seguidos (Dó → Sol → Ré → Fá → Lá) |
 | Momento surpresa | Sempre diferente; nada de repetir o "brilho mágico na panela" |
 | Final / loop | A pose e a ação do loop mudam por episódio |
-| Personagens convidados | Os animais podem voltar em outras séries (ex.: a Vaquinha Nuvem no Bolo) |
+| Personagens convidados | Amigos de pares anteriores podem voltar como convidados (ex.: a Vaquinha Nuvem num episódio de outro amigo) |
 
 **Outros cuidados:**
 - **Direitos autorais:** nada de usar personagens, músicas ou nomes de canais existentes. Veja a [lista de músicas a evitar](#músicas-conhecidas-a-evitar).

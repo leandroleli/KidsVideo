@@ -32,6 +32,8 @@ Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft clo
 - **Som característico:** "Muu!" alegre. O sininho faz "blim-blom" quando ela balança a cabeça.
 - **Voz (falas geradas no Veo):** voz de menininha, um pouco mais grave e mais calma que a do Bolinha, doce e risonha. Fala devagar e alonga o "u" ("Muuuito bem!").
 - Descrição para prompt: `a sweet, calm, slightly lower little girl voice, warm and giggly, speaking slowly in Brazilian Portuguese`
+- **Amostra oficial:** [`../vozes/nuvem_voz.wav`](../vozes/nuvem_voz.wav) (falas do ep03, já com o ajuste abaixo).
+- **Ajuste na montagem:** o Veo costuma dar a mesma voz para a Nuvem e o Bolinha. Abaixe **3 semitons** só nos trechos da Nuvem, preservando o timbre (`rubberband=pitch=0.8409:formant=preserved:pitchq=quality`). O Bolinha fica sem ajuste. Compare o resultado com a amostra oficial. Veja o comando em [`personagem.md`](../../personagem.md#voz-nas-falas-do-veo).
 
 ## Personalidade
 

@@ -41,6 +41,21 @@ Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feather
 - **Consistência:** a voz é gerada no **Suno**. Depois do 1º episódio cantado (ep02), salve a voz como **Persona "Chef Bolinha"** no Suno e reutilize em todos os episódios.
 - Descrição para o Suno: `cute high-pitched young child voice, sweet and clear, Brazilian Portuguese, cheerful, no vibrato`
 
+### Voz nas falas do Veo
+
+Nos episódios educativos, as falas vêm do Veo, que cria uma voz nova a cada geração e costuma dar a mesma voz ao Bolinha e ao amigo.
+
+- **Amostra oficial:** [`personagem/vozes/bolinha_voz.wav`](personagem/vozes/bolinha_voz.wav) (falas do ep03). A da Nuvem fica em [`personagem/vozes/nuvem_voz.wav`](personagem/vozes/nuvem_voz.wav).
+- **Receita (ep03):** o Bolinha fica sem ajuste e a Nuvem desce **3 semitons**, com o timbre preservado. A sincronia com a boca não muda.
+- **Como aplicar:** anote os trechos de cada personagem (o `silencedetect` do ffmpeg mostra as pausas entre as falas) e rode, na pasta `videos/`, trocando os tempos de `N` (falas da Nuvem):
+
+  ```
+  N="between(t,1.95,3.6)+between(t,6.3,8.1)+between(t,10.0,11.8)+between(t,13.9,16.5)"
+  ffmpeg -i completo_20s.mp4 -filter_complex "[0:a]asplit=2[o][n];[n]rubberband=pitch=0.8409:formant=preserved:pitchq=quality,volume='if($N,1,0)':eval=frame[nn];[o]volume='if($N,0,1)':eval=frame[oo];[nn][oo]amix=inputs=2:normalize=0[a]" -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k completo_vozes.mp4
+  ```
+
+- Ouça o resultado junto com as amostras oficiais. O timbre ainda pode variar um pouco de episódio para episódio. Para uma voz idêntica sempre, o próximo passo é uma troca de voz (ElevenLabs Voice Changer ou um modelo RVC treinado com essas amostras).
+
 ## Paleta de cores (aprox.)
 
 | Elemento | Cor | Hex aprox. |

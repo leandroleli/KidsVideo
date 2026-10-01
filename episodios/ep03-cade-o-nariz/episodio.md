@@ -3,8 +3,8 @@
 > Episódio **educativo** (falas e interação, sem letra cantada). Este arquivo é autossuficiente: com ele você gera e publica o vídeo sem abrir outro.
 
 Referências:
-- Chef Bolinha: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png) (use a versão `_limpa` quando existir)
-- Vaquinha Nuvem: [`../../personagem/amigos/vaquinha-nuvem.md`](../../personagem/amigos/vaquinha-nuvem.md) e o frame [`../ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png`](../ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png)
+- Chef Bolinha: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png)
+- Vaquinha Nuvem: [`../../personagem/amigos/vaquinha-nuvem.md`](../../personagem/amigos/vaquinha-nuvem.md) e a referência de corpo inteiro [`../../personagem/amigos/vaquinha-nuvem_referencia.png`](../../personagem/amigos/vaquinha-nuvem_referencia.png)
 
 ---
 
@@ -96,11 +96,11 @@ A imagem do 1º frame (5.1) é feita no modo de **imagem** e não gasta o limite
 
 ### 5.1 Preparar o 1º frame (imagem)
 
-1. Gemini → criação de imagem → anexe a referência do Bolinha **e** o frame do ep02 com a Nuvem (`../ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png`). A Nuvem precisa estar no 1º frame: sem imagem dela, o Veo inventa o visual.
+1. Gemini → criação de imagem → anexe `personagem/bolinha_referencia.png` **e** `personagem/amigos/vaquinha-nuvem_referencia.png`. A Nuvem precisa estar no 1º frame: sem imagem dela, o Veo inventa o visual.
 2. Cole:
 
 ```
-Use the attached images as the exact character references: the chick is Chef Bolinha and the baby cow in the barn window is Nuvem. Vertical 9:16 image.
+Use the attached images as the exact character references: the chick is Chef Bolinha and the baby cow is Nuvem. Vertical 9:16 image.
 Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Setting: a cute pastel farm meadow on a sunny midday: a big round golden haybale on soft green grass with one tall sunflower growing right beside it, a white wooden fence behind it, a small red-and-cream barn far in the background, fluffy clouds in a light-blue sky, bright clear midday light.
@@ -168,7 +168,7 @@ Audio: only the dialogue above, the tiny sneeze, one cartoon boing, soft giggles
 
 - As frases de **Setting**, **Voices** e as âncoras dos personagens são idênticas nos três prompts. Não edite uma sem editar as outras.
 - A pose final da geração 2 precisa bater com `frame_inicio.png`: a Nuvem cheirando o girassol e o Bolinha embaixo à esquerda, de 3/4, olhando para ela.
-- A Nuvem só aparece **de trás do fardo** (cabeça, pescoço e peito). Assim não é preciso ter a referência de corpo inteiro dela ainda.
+- A Nuvem só aparece **de trás do fardo** (cabeça, pescoço e peito). Mesmo com a referência de corpo inteiro, isso diminui o risco de o Veo deformar as patas.
 
 ### 5.5 Conferir antes de aprovar
 

@@ -2,10 +2,9 @@
 
 Amiga do Chef Bolinha apresentada no **ep02** (2026-09-29).
 
-Referências visuais (frames do ep02):
-- [`../../episodios/ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png`](../../episodios/ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png): na janela do celeiro, com o sino à mostra
-
-> ⚠️ No ep02 ela só aparece **da cintura para cima, na janela do celeiro**. Ainda não existe imagem dela de corpo inteiro. Antes do 1º episódio em que ela aparece inteira, gere uma referência de corpo inteiro (ver [Referência de corpo inteiro](#referência-de-corpo-inteiro-no-gemini)).
+Referências visuais:
+- [`vaquinha-nuvem_referencia.png`](vaquinha-nuvem_referencia.png): **corpo inteiro, de frente, fundo creme. É a imagem que se anexa nos prompts.**
+- [`vaquinha-nuvem_ficha.png`](vaquinha-nuvem_ficha.png): ficha com detalhes (sino, olho, casco, rabo). Serve para consulta; não anexe nos prompts, porque os círculos de detalhe podem aparecer no frame gerado.
 
 ---
 
@@ -58,12 +57,15 @@ Setting: a cute pastel farm on a sunny morning: a small red-and-cream wooden bar
 
 ## Referência de corpo inteiro no Gemini
 
-1. Gemini → criação de imagem → anexe `episodios/ep02-vaquinha-nuvem/imagens/parte1_ultimo_frame.png`.
+A referência atual foi gerada assim em 2026-09-30. Use para refazer se precisar.
+
+1. Gemini → criação de imagem → anexe a referência atual, ou um frame do ep02 em que ela esteja grande e de olhos abertos (a de 2026-09-30 saiu do frame de 8,3s da `parte1`). Não use o `parte1_ultimo_frame.png`: nele ela aparece pequena e de olhos fechados.
 2. Cole:
 
    ```
-   Recreate the baby cow in the round window of this image as a clean character reference sheet: full body, front view, standing on four legs, centered, on a plain soft cream background. Keep every detail identical: white fur with soft cloud-shaped light-gray spots, fluffy white tuft on the head, big dark-brown eyes with eyelashes, big pink snout, rosy cheeks, white ears with pink insides, tiny cream horns, golden bell on a blue ribbon. Small pink hooves, short thin tail with a white tuft. Cute 3D Pixar-like style, soft lighting. Vertical 9:16. No text, no logos, no watermark.
+   Recreate the baby cow in this image as a clean character reference sheet: full body, front view, standing on four legs, centered, on a plain soft cream background. Keep every detail identical: white fur with soft cloud-shaped light-gray spots (one around her eye), fluffy white tuft on the head, big glossy dark-brown eyes with eyelashes, big rounded pink snout, rosy cheeks, white ears with pink insides, tiny rounded cream horns, small golden bell on a blue ribbon. Small pink hooves, short thin tail with a white tuft. Cute 3D Pixar-like style, soft lighting. Vertical 9:16. No text, no logos, no watermark.
    ```
 
-3. Gere 2 ou 3 variações e escolha a mais fiel ao ep02.
-4. Salve como `personagem/amigos/vaquinha-nuvem_referencia.png`.
+3. Gere 2 ou 3 variações e escolha a mais fiel ao ep02: manchas cinza-claro (nunca pretas), sino dourado, fita azul, chifrinhos creme.
+4. Se o Gemini acrescentar círculos de detalhe, salve a folha inteira em PNG como `personagem/amigos/vaquinha-nuvem_ficha.png`.
+5. Recorte só o corpo inteiro, sem os círculos, e salve como `personagem/amigos/vaquinha-nuvem_referencia.png`.

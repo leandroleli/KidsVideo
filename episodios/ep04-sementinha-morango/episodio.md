@@ -3,7 +3,7 @@
 > Episódio de **apresentação** (musiquinha). Este arquivo é autossuficiente: com ele você gera e publica o vídeo sem abrir outro.
 
 Referências:
-- Chef Bolinha: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png) (use a versão `_limpa` quando existir)
+- Chef Bolinha: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png)
 - Sementinha: [`../../personagem/amigos/sementinha-morango.md`](../../personagem/amigos/sementinha-morango.md). **Gere a referência dele antes** (seção "Referência no Gemini" da bíblia) e salve como `personagem/amigos/sementinha-morango_referencia.png`.
 
 ---

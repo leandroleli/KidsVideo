@@ -1,8 +1,8 @@
 # Chef Bolinha: bíblia do personagem
 
-Referência visual oficial: [`personagem/bolinha_referencia.png`](personagem/bolinha_referencia.png)
+Referência visual oficial: [`personagem/bolinha_referencia.png`](personagem/bolinha_referencia.png): corpo inteiro, de frente, fundo creme, sem marca d'água. É a imagem que se anexa nos prompts.
 
-> ⚠️ **A referência atual tem a marca d'água "Dreamina AI"** (canto inferior direito). Ela nunca pode aparecer num vídeo publicado. Gere uma versão limpa (ver [Referência limpa](#referência-limpa-no-gemini)) e use a versão limpa em todos os episódios.
+Ficha com detalhes (estrela do chapéu, olho, laço do lenço, bolso do avental): [`personagem/bolinha_ficha.png`](personagem/bolinha_ficha.png). Serve para consulta; não anexe nos prompts, porque os círculos de detalhe podem aparecer no frame gerado.
 
 ---
 
@@ -64,19 +64,23 @@ Cenários em tons pastel (rosa, menta, creme) combinam com a paleta. Evite fundo
 
 ---
 
-## Referência limpa no Gemini
+## Referência no Gemini
 
-Objetivo: uma imagem sem marca d'água, fundo neutro, corpo inteiro, para anexar em todo episódio.
+A referência atual foi gerada assim em 2026-09-30, substituindo a antiga com marca d'água "Dreamina AI" (que continua no histórico do git). Use para refazer se precisar.
 
 1. Abra o **Gemini** → modo de criação de imagem.
 2. Anexe `personagem/bolinha_referencia.png`.
 3. Cole o prompt:
 
    ```
-   Recreate this exact character as a clean character reference sheet: full body, front view, standing, centered, on a plain soft cream background. Keep every detail identical: yellow fluffy chick, turquoise eyes, rosy cheeks, puffy white chef's hat with a small red star, red neckerchief with a bow, light-blue apron with white polka dots and a pocket. Cute 3D Pixar-like style, soft lighting. Vertical 9:16. No text, no logos, no watermark.
+   Recreate the chick in this image as a clean character reference sheet. Vertical 9:16, plain soft cream background.
+   Center: full body, front view, standing on his two tiny orange feet, little wings slightly open at his sides, gentle happy smile, centered and large in the frame.
+   Keep every detail identical: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket.
+   Around him, four round close-up detail circles, one in each corner, not overlapping the full body: top-left the red star on the chef's hat band, top-right one turquoise-blue eye with eyelashes, bottom-left the red neckerchief bow, bottom-right the apron front pocket with white polka dots.
+   Cute 3D Pixar-like style, soft lighting. Remove any watermark, logo or label from the original image. No text, no logos, no watermark.
    ```
 
 4. Gere 2 ou 3 variações e escolha a mais fiel (compare chapéu, estrela, lenço e avental com a original).
-5. Se a imagem vier com algum selo no canto, recorte a imagem sem cortar o personagem.
-6. Salve como `personagem/bolinha_referencia_limpa.png` e passe a usar essa nos episódios.
+5. Salve a folha inteira em PNG como `personagem/bolinha_ficha.png`.
+6. Recorte só o corpo inteiro, sem os círculos (se sobrar borda de círculo nos cantos, pinte com a cor do fundo), e salve como `personagem/bolinha_referencia.png`.
 7. Opcional: gere também uma **visão de lado** e uma **de costas** com o mesmo prompt, trocando `front view` por `side view` ou `back view`. Isso ajuda o Veo em cenas com o personagem de lado.

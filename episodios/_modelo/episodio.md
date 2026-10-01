@@ -3,7 +3,7 @@
 > Copie esta pasta (`_modelo/`) para `episodios/epXX-<slug>/`, crie `videos/` e `imagens/` dentro dela e preencha todos os campos.
 > Este arquivo é autossuficiente: com ele você gera e publica o vídeo sem abrir outro.
 
-Referência do personagem: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png) (use a versão `_limpa` quando existir)
+Referência do personagem: [`../../personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png)
 
 ---
 

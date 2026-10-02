@@ -21,13 +21,13 @@ Referências:
 | Tema | Na hortinha, o Sementinha pula 3 vezes e o Bolinha conta. Depois a criança conta com eles |
 | Duração-alvo | 20s no **app do Gemini**: geração 1 de ~10s + continuação até 20s |
 | Data de publicação | 2026-10-02 |
-| Status | roteiro |
+| Status | 1º frame pronto · gerando vídeo |
 
 **Como o conceito aparece:**
 - **1ª aparição:** o Sementinha dá 3 pulos e o **Bolinha conta sozinho**: "Um! Dois! Três!". Depois pergunta "Quantos pulos?" e o Sementinha responde "Três pulos!".
 - **2ª aparição:** o Sementinha chama a criança ("Conta comigo!") e os **dois contam juntos**. No 3º pulo, o Bolinha pula junto (surpresa).
 - **Participação:** a criança conta junto na 2ª vez e responde "três!" nas duas perguntas, com ~1s de pausa antes da resposta.
-- **Variação:** 1ª vez o Bolinha conta e o amigo responde; 2ª vez a contagem é em coro e quem responde à pergunta é a criança, antes deles.
+- **Variação:** na 1ª vez o Bolinha conta e o amigo responde; na 2ª a contagem é em coro e quem responde primeiro à pergunta é a criança.
 
 ## 2. Ficha de variação
 
@@ -77,23 +77,23 @@ Cada fala tem no máximo 6 palavras. As duas pausas de ~1s depois de "Quantos pu
 | 15,6s | Sementinha | "Três!" | Rápido e saltitante |
 | 16,3s | Bolinha | "Muito bem!" | Agudo e doce, para a câmera |
 
-Vozes (iguais em todos os prompts):
+Vozes (iguais nos dois prompts de vídeo):
 - Bolinha: `a cute high-pitched young child voice, sweet and clear, Brazilian Portuguese`
 - Sementinha: `a tiny, quick, bouncy little boy voice, cheerful and bright, speaking in Brazilian Portuguese` (da bíblia)
 
 ## 5. Geração no Gemini (Veo)
 
-**Limite:** **2 gerações de vídeo por dia**, de ~10s cada. A 2ª geração, feita a partir do último frame da 1ª, devolve o **vídeo inteiro de 20s** já emendado (foi assim no ep01 e no ep03). Este episódio gasta as 2 gerações do dia, então **não sobra nenhuma para refazer**. Se algo sair errado, refaça no **Flow** ([labs.google/flow](https://labs.google/flow)) ou no dia seguinte.
+**Limite:** **2 gerações de vídeo por dia**, de ~10s cada. A 2ª geração, feita a partir do último frame da 1ª, devolve o **vídeo inteiro de 20s** já emendado (foi assim no ep01 e no ep03). Este episódio gasta as 2 gerações do dia, então **não sobra nenhuma para refazer**. Se algo sair errado, refaça no dia seguinte.
 
 **Áudio:** aqui o **áudio do Veo fica**, porque são as falas. Por isso os prompts pedem **sem música de fundo**: a trilha entra depois, na montagem, igual nas duas partes.
 
-**Loop:** o app do Gemini não deixa escolher o último frame (o Flow deixa). O loop depende de o fim da geração 2 descrever **a mesma pose do `frame_inicio.png`**: o Sementinha sentado na borda do canteiro, com as perninhas penduradas, e o Bolinha virado para ele.
+**Loop:** o fim da geração 2 descreve **a mesma pose do `frame_inicio.png`**: o Sementinha sentado na borda do canteiro, com as perninhas penduradas, e o Bolinha virado para ele.
 
 A imagem do 1º frame (5.1) é feita no modo de **imagem** e não gasta o limite de vídeo.
 
 ### 5.1 Preparar o 1º frame (imagem)
 
-**Feito em 02/10:** `imagens/frame_inicio.png` (1536×2752). O Sementinha saiu **sentado na borda do canteiro, com as perninhas penduradas**, e não agachado. Os prompts abaixo já foram ajustados a essa pose. Se precisar refazer:
+**Feito em 02/10:** `imagens/frame_inicio.png` (1536×2752), com o Sementinha **sentado na borda do canteiro, com as perninhas penduradas**. Os prompts de vídeo já partem dessa pose. Se precisar refazer:
 
 1. Gemini → criação de imagem → anexe `bolinha_referencia.png` **e** `sementinha-morango_referencia.png`.
 2. Cole:
@@ -114,7 +114,7 @@ No text, no logos, no watermark.
 1. Gemini → **Vídeo** → anexe `imagens/frame_inicio.png`.
 2. Cole o prompt abaixo. Ele começa com `Start exactly from the attached image`: sem essa frase, o Gemini usa a imagem só como referência e inventa outra abertura.
 3. Baixe → `videos/parte1.mp4`.
-4. **Confira antes de seguir:** falas em português, 3 pulos (não 2 nem 4) e o Sementinha sem deformar. Se algo falhar, **não gaste a 2ª geração**: refaça a parte 1 no Flow ou amanhã.
+4. **Confira antes de seguir:** falas em português, 3 pulos (não 2 nem 4) e o Sementinha sem deformar. Se algo falhar, **não gaste a 2ª geração**: refaça a parte 1 amanhã.
 5. Extraia o último frame:
 
    ```
@@ -171,7 +171,7 @@ Audio: only the dialogue above, a cartoon boing on each jump and a short giggle.
 - **Setting**, **Voices**, **Identity**, **Positions** e as âncoras são idênticos nos dois prompts e no 1º frame. Não edite um sem editar os outros.
 - Regras que vêm do ep04: o Sementinha **não gira**, **nenhuma ação envolve as sementes**, cada ação diz quem é e de que lado, câmera parada e trava só com frases positivas.
 - Os pulos são **retos, para cima, no mesmo lugar**. Pulo para os lados muda a posição e atrapalha o loop.
-- A pose final da geração 2 (17–20s) repete a do `frame_inicio.png`, porque o Gemini não deixa fixar o último frame.
+- A pose final da geração 2 (17–20s) repete a do `frame_inicio.png`.
 - O céu do alto fica livre para a legenda.
 
 ### 5.5 Conferir antes de aprovar
@@ -283,7 +283,7 @@ desenho infantil, vídeo educativo para bebês, vídeo para crianças, contar at
 - [ ] Falas e trilha originais, sem semelhança com músicas conhecidas
 - [ ] Etapa "Verificações" do upload sem aviso de direitos autorais
 - [ ] Vídeo final sem marca d'água
-- [ ] Ferramentas usadas permitem uso comercial (Gemini, Flow/Veo e Suno pago)
+- [ ] Ferramentas usadas permitem uso comercial (Gemini/Veo e Suno pago)
 - [ ] Título, descrição e playlist conforme este MD
 - [ ] Verificar no Studio → Conteúdo → Restrições 24h após postar
 

@@ -19,7 +19,7 @@ Referências:
 | Idade | 1–2 anos |
 | Por que funciona para essa idade | O morango é uma fruta que a criança pequena já conhece e vê de perto. Um verso curto de pergunta e resposta ("que cor?" → "vermelho!") é fácil de cantar junto, e as sementinhas por fora são um detalhe que dá para ver e apontar |
 | Tema | Na hortinha, o Bolinha canta para o amigo novo, o Sementinha, que não para de pular |
-| Duração-alvo | 20s (geração 1 de ~10s + continuação até 20s) |
+| Duração-alvo | ~21s no **Google Flow**: bloco 1 de 8s + extensão de 7s + bloco final de 6s que termina no 1º frame |
 | Data de publicação | 2026-10-01 |
 | Status | roteiro |
 
@@ -41,23 +41,23 @@ Referências:
 | Iluminação | Fim de tarde, luz dourada | Meio-dia, sol claro | Manhã |
 | Estrutura (musical ou de falas) | **Pergunta e resposta** cantada | Pergunta e resposta falada | Onomatopeia + chamada e resposta |
 | Instrumento principal | Marimba + estalos de dedo + baixo suave | Kalimba + pizzicato | Ukulele + palmas + sininho |
-| Andamento (BPM) | **120 BPM** (1 compasso = 2s; 20s = 10 compassos) | 84 BPM | 96 BPM |
+| Andamento (BPM) | **120 BPM** (1 compasso = 2s; ~21s ≈ 10 compassos e meio) | 84 BPM | 96 BPM |
 | Tonalidade | Ré maior. Pergunta subindo ("que cor?"), resposta descendo ("vermelho, vermelho") | Fá maior (só trilha) | Sol maior |
 | Momento surpresa | O Sementinha pula e cai sentado em cima do chapéu do Bolinha | Espirro para o alto e girassol "boing" | Chapéu voa |
-| Final / loop | Os dois lado a lado, olhando para a câmera | A Nuvem volta a cheirar o girassol | Amiga se esconde |
+| Final / loop | Os dois lado a lado, olhando para a câmera (o bloco 3 termina **no próprio 1º frame**) | A Nuvem volta a cheirar o girassol | Amiga se esconde |
 
 ## 3. Roteiro por cena
 
-| Tempo | Geração | Cena (visual) | Áudio |
+| Tempo | Bloco (Flow) | Cena (visual) | Áudio |
 |---|---|---|---|
 | 0:00–0:01 | 1 | **Gancho:** os dois já em cena, lado a lado. O Sementinha dá um pulo alto de alegria ("boing!") e o Bolinha arregala os olhos, animado | Efeito **"boing!"** + música começa |
 | 0:01–0:05 | 1 | Bolinha aponta o Sementinha e dança; o Sementinha gira mostrando como é vermelhinho | **Refrão (1ª vez)** |
-| 0:05–0:09 | 1 | A câmera chega mais perto do Sementinha; ele aponta as sementinhas da barriga, uma de cada vez, e elas brilham um pouquinho ("plim") | **Estrofe** |
-| 0:09–0:10 | 1 | O Sementinha se abaixa, preparando um pulo, olhando para o chapéu do Bolinha | Instrumental |
-| 0:10–0:11 | 2 | **Surpresa:** "boing!", o Sementinha pula e cai sentado **em cima do chapéu** do Bolinha | Efeito **"boing!"** |
-| 0:11–0:15 | 2 | Bolinha olha para cima (vesguinho), ri e dança com cuidado, com o Sementinha balançando no chapéu | **Refrão (2ª vez)** + risadinha |
-| 0:15–0:17 | 2 | O Sementinha desce do chapéu pulando | "Oi, Sementinha!" + "boing!" |
-| 0:17–0:20 | 2 | **Loop:** o Sementinha cai sentado no canteiro, ao lado do Bolinha; os dois olham para a câmera (**mesma pose do 1º frame**) | Acorde final |
+| 0:05–0:08 | 1 | A câmera chega mais perto do Sementinha; ele aponta as sementinhas da barriga, uma de cada vez, e elas brilham um pouquinho ("plim") | **Estrofe** |
+| 0:08–0:09 | 2 (extensão) | O Sementinha se abaixa, preparando um pulo, olhando para o chapéu do Bolinha | "plim!" + instrumental |
+| 0:09–0:11 | 2 | **Surpresa:** "boing!", o Sementinha pula e cai sentado **em cima do chapéu** do Bolinha; o Bolinha olha para cima, vesguinho, e ri | Efeito **"boing!"** + risadinha |
+| 0:11–0:15 | 2 | O Bolinha dança com cuidado, com o Sementinha balançando no chapéu | **Refrão (2ª vez)** |
+| 0:15–0:17 | 3 | O Sementinha desce do chapéu pulando e cai sentado no canteiro, ao lado do Bolinha | "Oi, Sementinha!" + "boing!" |
+| 0:17–0:21 | 3 | **Loop:** os dois olham para a câmera, na **mesma pose do 1º frame** (o bloco 3 termina nele) | Acorde final |
 
 ## 4. Letra
 
@@ -68,28 +68,28 @@ Morango, que cor?
 Vermelho, vermelho!
 ```
 
-**Letra completa, por geração** (120 BPM, 1 compasso = 2s; no máximo 7 sílabas por compasso, para caber em 20s num ritmo que a criança acompanha):
+**Letra completa, por geração** (120 BPM, 1 compasso = 2s; no máximo 7 sílabas por compasso, para caber em ~21s num ritmo que a criança acompanha):
 
-| Geração | Tempo | Trecho |
+| Bloco | Tempo | Trecho |
 |---|---|---|
 | 1 | 0,0–1,0s | *(efeito: boing!)* |
 | 1 | 1,0–3,0s | Morango, que cor? |
 | 1 | 3,0–5,0s | Vermelho, vermelho! |
 | 1 | 5,0–7,0s | Sementinhas por fora, |
-| 1 | 7,0–9,0s | plim, plim, plim! |
-| 1 → 2 | 9,0–11,0s | *(instrumental + boing! + risadinha)* |
+| 1 → 2 | 7,0–9,0s | plim, plim, plim! |
+| 2 | 9,0–11,0s | *(instrumental + boing! + risadinha)* |
 | 2 | 11,0–13,0s | Morango, que cor? |
 | 2 | 13,0–15,0s | Vermelho, vermelho! |
-| 2 | 15,0–17,0s | Oi, Sementinha! |
-| 2 | 17,0–20,0s | *(acorde final)* |
+| 3 | 15,0–17,0s | Oi, Sementinha! |
+| 3 | 17,0–21,0s | *(acorde final)* |
 
 Regras: frases curtas, palavras simples (1 a 4 anos), onomatopeia ("plim"), nada parecido com músicas infantis conhecidas.
 
-## 5. Geração no Gemini (Veo)
+## 5. Geração no Google Flow (Veo 3.1)
 
-**Limite:** **2 gerações de vídeo por dia**, de ~10s cada. A 2ª geração, feita a partir do último frame da 1ª, devolve o **vídeo inteiro de 20s** já emendado. Este episódio gasta as 2 gerações do dia, então **não sobra nenhuma para refazer**. Se algo sair errado, refaça no **Flow** (labs.google/flow) ou no dia seguinte.
+Este episódio é o **teste do Flow** ([labs.google/flow](https://labs.google/flow)) no lugar do app do Gemini. O Flow cobra por créditos, em vez das 2 gerações por dia, e permite **estender** um vídeo e escolher o **último frame**. É isso que garante o loop.
 
-A imagem do 1º frame (5.1) é feita no modo de **imagem** e não gasta o limite de vídeo.
+As imagens (5.0 e 5.1) continuam no app do Gemini, no modo de **imagem**, que não gasta créditos do Flow.
 
 ### 5.0 Referência do Sementinha (imagem)
 
@@ -121,59 +121,116 @@ No text, no logos, no watermark.
 
 3. Confira os dois personagens, as sementinhas visíveis, o formato vertical e o céu livre no alto (é onde a legenda entra). Salve como `imagens/frame_inicio.png`. Esse frame também é o **alvo do loop**.
 
-### 5.2 Geração 1 (0–10s)
+### 5.2 Configurar o Flow
 
-1. Gemini → **Vídeo** → anexe `imagens/frame_inicio.png`.
-2. Cole o prompt abaixo.
-3. Baixe → `videos/parte1.mp4`.
-4. Extraia o último frame:
+1. Abra [labs.google/flow](https://labs.google/flow) → **New project**, com o nome `ep04 Sementinha`.
+2. Nas configurações da geração (ícone de ajustes ao lado da caixa de prompt):
+   - **Aspect ratio:** **9:16** (retrato)
+   - **Model:** **Veo 3.1 - Fast** (20 créditos por bloco)
+   - **Outputs per prompt:** **1**. O padrão costuma ser 2, e aí cada bloco gasta o dobro.
+3. Os prompts pedem "no singing, no dialogue": o áudio do Flow é descartado, porque a música vem do Suno.
 
-   ```
-   ffmpeg -sseof -0.1 -i videos/parte1.mp4 -frames:v 1 imagens/parte1_ultimo_frame.png
-   ```
+**Créditos deste episódio (Veo 3.1 Fast):**
+
+| Bloco | Ferramenta | Duração | Créditos |
+|---|---|---|---|
+| 1 | Frames to Video (só o 1º frame) | 8s | 20 |
+| 2 | Extend | +7s | 20 |
+| 3 | Frames to Video (1º e último frame) | 6s | 20 |
+| **Total por tentativa** | | **~21s** | **60** |
+
+Com 250 créditos, dá para fazer o episódio inteiro umas 4 vezes. Os 50 créditos diários são gastos primeiro e zeram todo dia. **Refaça só o bloco que deu errado**: cada um custa 20. O Veo 3.1 - Quality custa 100 por bloco (300 por tentativa), então só vale para uma comparação.
+
+### 5.3 Bloco 1 (0–8s): Frames to Video
+
+1. Modo **Frames to Video** → no 1º frame, envie `imagens/frame_inicio.png`. Deixe o último frame **vazio**.
+2. Cole o prompt abaixo e gere.
+3. Confira os dois personagens e as sementinhas antes de seguir.
 
 ```
-Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image; keep the characters and setting identical.
+Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the first frame; keep the characters and setting identical.
 Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry character about the size of Bolinha's head, covered all over with tiny golden-yellow seeds on the outside of his body, with a fresh green leafy cap on top like a little crown and a short curly green stem, big glossy black eyes, rosy pink cheeks, a small happy smile, and tiny thin light-green arms and legs. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Setting: a cute pastel strawberry garden on a sunny late afternoon: low green strawberry plants with small white flowers and ripe red strawberries, a little wooden garden bed, a small light-blue watering can, a light-blue sky with fluffy clouds, warm golden late-afternoon light.
-Action: In the very first second, Sementinha does a big happy bounce straight up from the edge of the garden bed with a cartoon boing, and Bolinha opens his eyes wide with delight. Then Bolinha points at Sementinha with his wing and dances side to side in rhythm, opening and closing his beak as if singing, while Sementinha lands back and spins around once to show his shiny red body. Next, the camera gently moves closer to Sementinha; he points with his tiny green hand at the golden seeds on his tummy, one by one, and each seed twinkles softly. In the last second, Sementinha crouches down like a spring, looking up at Bolinha's chef's hat with a playful grin.
-Camera: medium two-shot, gentle push-in on Sementinha in the middle, no cuts. Keep the upper third of the frame as open sky.
+Action:
+(0-1s) Sementinha does a big happy bounce straight up from the edge of the garden bed with a cartoon boing, and Bolinha opens his eyes wide with delight.
+(1-5s) Bolinha points at Sementinha with his wing and dances side to side in rhythm, opening and closing his beak as if singing, while Sementinha lands back and spins around once to show his shiny red body.
+(5-8s) The camera gently moves closer to Sementinha; he points with his tiny green hand at the golden seeds on his tummy, one by one, and each seed twinkles softly.
+Camera: medium two-shot, gentle push-in on Sementinha at the end, no cuts. Keep the upper third of the frame as open sky.
 Audio: bouncy marimba music and finger snaps, about 120 BPM, one cartoon boing at the start, no dialogue, no singing.
 ```
 
-### 5.3 Geração 2 (continuação até 20s)
+### 5.4 Bloco 2 (8–15s): Extend
 
-1. Gemini → **Vídeo** → anexe `imagens/parte1_ultimo_frame.png`.
-2. Cole o prompt abaixo.
-3. Baixe → `videos/completo_20s.mp4`. Se vierem só os 10s novos, salve como `videos/parte2.mp4` e junte na montagem.
+1. No clipe do bloco 1, clique em **Add to scene** (abre o Scenebuilder) → no fim do clipe, clique em **+** → **Extend**.
+2. Cole o prompt abaixo. A extensão continua o próprio vídeo, então não precisa anexar imagem.
+3. No Scenebuilder, baixe a cena (blocos 1 + 2, ~15s) → `videos/blocos1e2.mp4`.
+4. Extraia o último frame. Ele é o 1º frame do bloco 3:
+
+   ```
+   ffmpeg -sseof -0.1 -i videos/blocos1e2.mp4 -frames:v 1 imagens/bloco2_ultimo_frame.png
+   ```
 
 ```
-Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the attached image and continue the same scene; keep both characters, the setting, the lighting and the camera framing identical.
+Continue the same scene with no cuts; keep both characters, the setting, the lighting and the camera framing identical. Vertical 9:16, high-quality 3D kids animation.
+Chef Bolinha is the round yellow baby chick with the tall white chef's hat with a red star, red neckerchief and light-blue polka-dot apron. Sementinha is the small glossy red strawberry with golden seeds on the outside, a green leafy cap, big black eyes and thin light-green arms and legs.
+Action:
+(0-1s) Sementinha crouches down like a spring, looking up at Bolinha's chef's hat with a playful grin.
+(1-3s) Sementinha springs up with a cartoon boing and lands softly, sitting on top of Bolinha's puffy white chef's hat. Bolinha looks up with his eyes crossed in a funny way and giggles.
+(3-7s) Bolinha dances carefully side to side, opening and closing his beak as if singing, while Sementinha sways happily on top of the hat.
+Camera: the camera slowly pulls back to a medium two-shot, no cuts. Keep the upper third of the frame as open sky. Nothing scary.
+Audio: the same bouncy marimba music and finger snaps, about 120 BPM, one cartoon boing, a short giggle, no dialogue, no singing.
+```
+
+### 5.5 Bloco 3 (15–21s): Frames to Video com 1º e último frame
+
+Esse bloco fecha o loop: ele começa onde o bloco 2 parou e **termina exatamente no `frame_inicio.png`**.
+
+1. Modo **Frames to Video** → **1º frame:** `imagens/bloco2_ultimo_frame.png`; **último frame:** `imagens/frame_inicio.png`.
+2. Duração: **6s**, se a opção aparecer. Se só houver 8s, gere assim mesmo, e o vídeo fica com ~23s.
+3. Cole o prompt abaixo e gere.
+4. Baixe → `videos/bloco3.mp4`.
+
+```
+Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Animate smoothly from the first frame to the last frame; keep the characters and setting identical, no cuts.
 Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry character about the size of Bolinha's head, covered all over with tiny golden-yellow seeds on the outside of his body, with a fresh green leafy cap on top like a little crown and a short curly green stem, big glossy black eyes, rosy pink cheeks, a small happy smile, and tiny thin light-green arms and legs. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Setting: a cute pastel strawberry garden on a sunny late afternoon: low green strawberry plants with small white flowers and ripe red strawberries, a little wooden garden bed, a small light-blue watering can, a light-blue sky with fluffy clouds, warm golden late-afternoon light.
-Action: Sementinha springs up with a cartoon boing and lands softly, sitting on top of Bolinha's puffy white chef's hat. Bolinha looks up with his eyes crossed in a funny way, giggles, and then dances carefully side to side, opening and closing his beak as if singing, while Sementinha sways happily on the hat. Near the end, Sementinha hops down from the hat with another boing and lands sitting on the edge of the wooden garden bed right next to Bolinha, on the right. In the last three seconds, both face the camera with big happy smiles, Bolinha on the lower center-left and Sementinha on the garden bed edge beside him, exactly like the first frame, and hold that pose until the end.
-Camera: the camera slowly pulls back to the same medium two-shot as the first frame, no cuts. Keep the upper third of the frame as open sky. Nothing scary.
-Audio: the same bouncy marimba music and finger snaps, about 120 BPM, two cartoon boings, a short giggle, no dialogue, no singing.
+Action:
+(0-2s) Sementinha hops down from the top of Bolinha's chef's hat with a cartoon boing and lands sitting on the edge of the wooden garden bed right next to Bolinha, on the right. Bolinha waves at him happily.
+(2-6s) Both turn to face the camera with big happy smiles, Bolinha on the lower center-left and Sementinha on the garden bed edge beside him, settling gently into the exact pose of the last frame and holding it.
+Camera: medium two-shot, static, no cuts. Keep the upper third of the frame as open sky. Nothing scary.
+Audio: the same bouncy marimba music, one cartoon boing, no dialogue, no singing.
 ```
 
-### 5.4 Continuidade
+### 5.6 Juntar os blocos
 
-- As frases de **Setting** e as âncoras dos personagens são idênticas nos três prompts. Não edite uma sem editar a outra.
-- A pose final da geração 2 precisa bater com `frame_inicio.png`: os dois de frente para a câmera, Bolinha embaixo no centro-esquerda e o Sementinha na beirada do canteiro, à direita.
-- O céu no alto fica livre nas duas gerações: o `montar.py` põe a legenda no alto à direita.
+Na pasta do episódio. O comando junta tudo num vídeo só e pula o 1º quadro do bloco 3, que repete o último do bloco 2:
 
-### 5.5 Conferir antes de aprovar
+```
+ffmpeg -i videos/blocos1e2.mp4 -i videos/bloco3.mp4 -filter_complex "[0:v]fps=24,scale=720:1280,setsar=1[a];[1:v]trim=start_frame=1,setpts=PTS-STARTPTS,fps=24,scale=720:1280,setsar=1[b];[a][b]concat=n=2:v=1:a=0[v]" -map "[v]" -an -c:v libx264 -crf 14 videos/completo.mp4
+```
 
+O `montar.py` acha o `videos/completo.mp4` sozinho.
+
+### 5.7 Continuidade
+
+- As frases de **Setting** e as âncoras dos personagens são idênticas nos prompts dos blocos 1 e 3 e no 1º frame. Não edite uma sem editar a outra. O prompt da extensão usa uma versão curta, porque continua o próprio vídeo.
+- O loop é garantido pelo bloco 3, que termina no `frame_inicio.png`.
+- O céu no alto fica livre em todos os blocos: o `montar.py` põe a legenda no alto à direita.
+
+### 5.8 Conferir antes de aprovar
+
+- [ ] Vídeo **vertical (9:16)** em todos os blocos
 - [ ] Bolinha igual à referência (chapéu com estrela, lenço vermelho, avental azul de bolinhas, olhos turquesa)
-- [ ] Sementinha igual nas duas partes: vermelho, **sementinhas por fora bem visíveis**, folhinhas verdes em cima
+- [ ] Sementinha igual nos três blocos: vermelho, **sementinhas por fora bem visíveis**, folhinhas verdes em cima
 - [ ] O Sementinha não lembra nenhum personagem conhecido
-- [ ] Emenda em 10s sem salto (compare os frames 9,8s e 10,2s)
+- [ ] Emendas sem salto: em 8s (extensão) e em 15s (bloco 3)
 - [ ] Sem deformações (asas, olhos, bico, patas, bracinhos)
 - [ ] Sem texto aleatório nem marca d'água
 - [ ] Pulo no chapéu engraçado, sem ninguém cair nem se machucar
 - [ ] Final igual ao `frame_inicio.png` (loop)
+- [ ] Anote no fim do MD quantos créditos foram gastos e quantas tentativas foram feitas
 
 ## 6. Música
 
@@ -219,16 +276,16 @@ Oi, Sementinha!
 [End]
 ```
 
-O Suno costuma gerar mais de 20s. O `montar.py` corta na batida.
+O Suno costuma gerar mais que os ~21s do vídeo. O `montar.py` corta na batida.
 
 **Efeitos sonoros (arquivos próprios ou biblioteca do CapCut):**
 
 | Tempo | Efeito | Busca |
 |---|---|---|
 | 0,0s | "Boing" de desenho animado | "boing", "cartoon bounce" |
-| 10,0s | "Boing" (pulo no chapéu) | "boing", "cartoon bounce" |
+| 9,5s | "Boing" (pulo no chapéu) | "boing", "cartoon bounce" |
 | 10,8s | Risadinha "hi-hi" | "giggle", "risada criança" |
-| 16,0s | "Boing" (desce do chapéu) | "boing", "cartoon bounce" |
+| 15,5s | "Boing" (desce do chapéu) | "boing", "cartoon bounce" |
 
 ## 7. Montagem
 
@@ -286,7 +343,7 @@ musiquinha infantil, música para bebê, música para crianças, música infanti
 - [ ] Letra e melodia originais, sem semelhança com músicas conhecidas
 - [ ] Etapa "Verificações" do upload sem aviso de direitos autorais
 - [ ] Vídeo final sem marca d'água
-- [ ] Ferramentas usadas permitem uso comercial (Gemini/Veo e Suno pago)
+- [ ] Ferramentas usadas permitem uso comercial (Gemini, Flow/Veo e Suno pago)
 - [ ] Título, descrição e playlist conforme este MD
 - [ ] Verificar no Studio → Conteúdo → Restrições 24h após postar
 

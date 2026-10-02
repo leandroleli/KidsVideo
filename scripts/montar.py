@@ -260,6 +260,7 @@ def planejar_corte(info, dur_video, inicio_forcado=None):
     # fim numa batida, com o menor ajuste de andamento possível (máx. ±5%)
     grade = [b for b in batidas if b > ini] + [batidas[-1] + k * periodo for k in range(1, 4)]
     grade = [b for b in grade if b <= info["duracao"] + 1e-3]
+    grade.append(info["duracao"])  # o fim natural da música também serve (não corta a última palavra)
     fim, fator = None, None
     for b in grade:
         f = (b - ini) / dur_video

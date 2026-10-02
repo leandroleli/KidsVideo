@@ -211,7 +211,7 @@ O `montar.py` acha o `videos/completo.mp4` sozinho.
 ### 5.7 Continuidade
 
 - As frases de **Setting** e as âncoras dos personagens são idênticas nos prompts dos blocos 2 e 3 e no 1º frame. Não edite uma sem editar as outras.
-- A linha **Identity** é igual nos prompts dos blocos 2 e 3. Elas existem por causa dos testes de 01/10:
+- A linha **Identity** é igual nos prompts dos blocos 2 e 3. Ela existe por causa dos testes de 01/10:
   - **1º teste:** o Sementinha girou, ficou de costas e voltou misturado com o Bolinha, com bico e olhos castanhos.
   - **2º teste (Veo 3.1 Lite):** em 4s, as sementes começaram a brilhar e, em 5,2s, os dois trocaram de identidade. Os 3,9s anteriores viraram o bloco 1.
   - **3º teste (Veo 3.1 Fast, com Identity e Positions):** também não ficou bom.

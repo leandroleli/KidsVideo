@@ -51,8 +51,8 @@ Referências:
 | Tempo | Bloco (Flow) | Cena (visual) | Áudio |
 |---|---|---|---|
 | 0:00–0:01 | 1 | **Gancho:** os dois já em cena, lado a lado. O Sementinha dá um pulo alto de alegria ("boing!") e o Bolinha arregala os olhos, animado | Efeito **"boing!"** + música começa |
-| 0:01–0:05 | 1 | Bolinha aponta o Sementinha e dança; o Sementinha gira mostrando como é vermelhinho | **Refrão (1ª vez)** |
-| 0:05–0:08 | 1 | A câmera chega mais perto do Sementinha; ele aponta as sementinhas da barriga, uma de cada vez, e elas brilham um pouquinho ("plim") | **Estrofe** |
+| 0:01–0:05 | 1 | Bolinha aponta o Sementinha e dança; o Sementinha balança de um lado para o outro, sempre de frente, mostrando como é vermelhinho | **Refrão (1ª vez)** |
+| 0:05–0:08 | 1 | O Sementinha bate na barriguinha, orgulhoso, e as sementinhas brilham um pouquinho ("plim"). Câmera parada | **Estrofe** |
 | 0:08–0:09 | 2 (extensão) | O Sementinha se abaixa, preparando um pulo, olhando para o chapéu do Bolinha | "plim!" + instrumental |
 | 0:09–0:11 | 2 | **Surpresa:** "boing!", o Sementinha pula e cai sentado **em cima do chapéu** do Bolinha; o Bolinha olha para cima, vesguinho, e ri | Efeito **"boing!"** + risadinha |
 | 0:11–0:15 | 2 | O Bolinha dança com cuidado, com o Sementinha balançando no chapéu | **Refrão (2ª vez)** |
@@ -151,12 +151,13 @@ Com 250 créditos, dá para fazer o episódio inteiro umas 4 vezes. Os 50 crédi
 Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Start exactly from the first frame; keep the characters and setting identical.
 Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry character about the size of Bolinha's head, covered all over with tiny golden-yellow seeds on the outside of his body, with a fresh green leafy cap on top like a little crown and a short curly green stem, big glossy black eyes, rosy pink cheeks, a small happy smile, and tiny thin light-green arms and legs. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Character lock: Bolinha and Sementinha are two separate characters and never blend. Sementinha has no beak, no feathers and no wings; his face, big black eyes and round strawberry body never change shape, and his seeds stay tiny. He never turns his back to the camera.
 Setting: a cute pastel strawberry garden on a sunny late afternoon: low green strawberry plants with small white flowers and ripe red strawberries, a little wooden garden bed, a small light-blue watering can, a light-blue sky with fluffy clouds, warm golden late-afternoon light.
 Action:
 (0-1s) Sementinha does a big happy bounce straight up from the edge of the garden bed with a cartoon boing, and Bolinha opens his eyes wide with delight.
-(1-5s) Bolinha points at Sementinha with his wing and dances side to side in rhythm, opening and closing his beak as if singing, while Sementinha lands back and spins around once to show his shiny red body.
-(5-8s) The camera gently moves closer to Sementinha; he points with his tiny green hand at the golden seeds on his tummy, one by one, and each seed twinkles softly.
-Camera: medium two-shot, gentle push-in on Sementinha at the end, no cuts. Keep the upper third of the frame as open sky.
+(1-5s) Bolinha points at Sementinha with his wing and dances side to side in rhythm, opening and closing his beak as if singing, while Sementinha lands back on the garden bed edge and sways happily side to side, always facing the camera, showing his shiny red body.
+(5-8s) Sementinha proudly pats his round tummy with his tiny green hand, and the tiny golden seeds twinkle softly. Bolinha claps his wings happily.
+Camera: static medium two-shot, exactly the framing of the first frame, no zoom, no cuts. Both characters stay fully in frame. Keep the upper third of the frame as open sky.
 Audio: bouncy marimba music and finger snaps, about 120 BPM, one cartoon boing at the start, no dialogue, no singing.
 ```
 
@@ -174,11 +175,12 @@ Audio: bouncy marimba music and finger snaps, about 120 BPM, one cartoon boing a
 ```
 Continue the same scene with no cuts; keep both characters, the setting, the lighting and the camera framing identical. Vertical 9:16, high-quality 3D kids animation.
 Chef Bolinha is the round yellow baby chick with the tall white chef's hat with a red star, red neckerchief and light-blue polka-dot apron. Sementinha is the small glossy red strawberry with golden seeds on the outside, a green leafy cap, big black eyes and thin light-green arms and legs.
+Character lock: Bolinha and Sementinha are two separate characters and never blend. Sementinha has no beak, no feathers and no wings; his face, big black eyes and round strawberry body never change shape, and his seeds stay tiny. He never turns his back to the camera.
 Action:
 (0-1s) Sementinha crouches down like a spring, looking up at Bolinha's chef's hat with a playful grin.
 (1-3s) Sementinha springs up with a cartoon boing and lands softly, sitting on top of Bolinha's puffy white chef's hat. Bolinha looks up with his eyes crossed in a funny way and giggles.
 (3-7s) Bolinha dances carefully side to side, opening and closing his beak as if singing, while Sementinha sways happily on top of the hat.
-Camera: the camera slowly pulls back to a medium two-shot, no cuts. Keep the upper third of the frame as open sky. Nothing scary.
+Camera: static medium two-shot, the same framing as before, no zoom, no cuts. Keep the upper third of the frame as open sky. Nothing scary.
 Audio: the same bouncy marimba music and finger snaps, about 120 BPM, one cartoon boing, a short giggle, no dialogue, no singing.
 ```
 
@@ -195,6 +197,7 @@ Esse bloco fecha o loop: ele começa onde o bloco 2 parou e **termina exatamente
 Vertical 9:16, high-quality 3D kids animation, soft lighting, vibrant pastel colors. Animate smoothly from the first frame to the last frame; keep the characters and setting identical, no cuts.
 Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
 Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry character about the size of Bolinha's head, covered all over with tiny golden-yellow seeds on the outside of his body, with a fresh green leafy cap on top like a little crown and a short curly green stem, big glossy black eyes, rosy pink cheeks, a small happy smile, and tiny thin light-green arms and legs. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft lighting. Same character design in every shot.
+Character lock: Bolinha and Sementinha are two separate characters and never blend. Sementinha has no beak, no feathers and no wings; his face, big black eyes and round strawberry body never change shape, and his seeds stay tiny. He never turns his back to the camera.
 Setting: a cute pastel strawberry garden on a sunny late afternoon: low green strawberry plants with small white flowers and ripe red strawberries, a little wooden garden bed, a small light-blue watering can, a light-blue sky with fluffy clouds, warm golden late-afternoon light.
 Action:
 (0-2s) Sementinha hops down from the top of Bolinha's chef's hat with a cartoon boing and lands sitting on the edge of the wooden garden bed right next to Bolinha, on the right. Bolinha waves at him happily.
@@ -216,6 +219,7 @@ O `montar.py` acha o `videos/completo.mp4` sozinho.
 ### 5.7 Continuidade
 
 - As frases de **Setting** e as âncoras dos personagens são idênticas nos prompts dos blocos 1 e 3 e no 1º frame. Não edite uma sem editar a outra. O prompt da extensão usa uma versão curta, porque continua o próprio vídeo.
+- A linha **Character lock** é igual nos três prompts. Ela existe porque, no 1º teste (01/10), o Sementinha girou, ficou de costas e voltou misturado com o Bolinha: ganhou bico, olhos castanhos e corpo de pintinho. Por isso ele não gira, fica sempre de frente e a câmera fica parada.
 - O loop é garantido pelo bloco 3, que termina no `frame_inicio.png`.
 - O céu no alto fica livre em todos os blocos: o `montar.py` põe a legenda no alto à direita.
 
@@ -223,7 +227,8 @@ O `montar.py` acha o `videos/completo.mp4` sozinho.
 
 - [ ] Vídeo **vertical (9:16)** em todos os blocos
 - [ ] Bolinha igual à referência (chapéu com estrela, lenço vermelho, avental azul de bolinhas, olhos turquesa)
-- [ ] Sementinha igual nos três blocos: vermelho, **sementinhas por fora bem visíveis**, folhinhas verdes em cima
+- [ ] Sementinha igual nos três blocos: vermelho, **sementinhas pequenas por fora**, folhinhas verdes em cima, olhos **pretos**, **sem bico** e com corpo redondo de morango
+- [ ] O Bolinha fica inteiro no quadro e o céu do alto continua livre
 - [ ] O Sementinha não lembra nenhum personagem conhecido
 - [ ] Emendas sem salto: em 8s (extensão) e em 15s (bloco 3)
 - [ ] Sem deformações (asas, olhos, bico, patas, bracinhos)

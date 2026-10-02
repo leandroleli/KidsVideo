@@ -21,7 +21,7 @@ Referências:
 | Tema | Na hortinha, o Bolinha canta para o amigo novo, o Sementinha, que não para de pular |
 | Duração-alvo | ~21s no **Google Flow**: bloco 1 de 8s + extensão de 7s + bloco final de 6s que termina no 1º frame |
 | Data de publicação | 2026-10-01 |
-| Status | roteiro |
+| Status | **vídeo aprovado** (01/10): `montagem_auto/final_completa.mp4`, pronto para publicar |
 
 **Como o conceito aparece:**
 - **1ª aparição:** o refrão canta "vermelho e com pintinhas" enquanto o Sementinha pula e balança mostrando o corpo vermelho.
@@ -369,4 +369,7 @@ musiquinha infantil, música para bebê, música para crianças, música infanti
 
 Aprendizados:
 
--
+- 1º episódio feito no **Google Flow** (Veo 3.1 Fast): 3 blocos de 8s em Frames to Video, cada um partindo de um quadro do anterior. Saiu em 1080×1920. Os testes antes disso gastaram créditos com o Lite e com ações que deformaram o Sementinha (ver 5.7).
+- **Nenhuma ação com as sementes** (apontar, aproximar a câmera, brilhar): todas deformaram o personagem ou fizeram os dois trocarem de identidade.
+- A letra foi alterada no Suno, e a legenda saiu errada até a seção 6 ser atualizada: **a letra do MD tem de ser igual à cantada**.
+- A música começou em 6,1s (`--inicio-musica 6.1`) para o "Oi, Sementinha!" caber no fim.

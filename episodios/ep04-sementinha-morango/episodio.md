@@ -17,17 +17,17 @@ Referências:
 | Área de aprendizagem | Alimentos e cozinha |
 | Objetivo | A criança **reconhece o morango: vermelho, com sementinhas por fora** |
 | Idade | 1–2 anos |
-| Por que funciona para essa idade | O morango é uma fruta que a criança pequena já conhece e vê de perto. Um verso curto de pergunta e resposta ("que cor?" → "vermelho!") é fácil de cantar junto, e as sementinhas por fora são um detalhe que dá para ver e apontar |
+| Por que funciona para essa idade | O morango é uma fruta que a criança pequena já conhece e vê de perto. O "boing, boing, boing" se repete e é fácil de cantar junto, e o verso diz a cor ("o morango é vermelho"), e as sementinhas por fora são um detalhe que dá para ver e apontar |
 | Tema | Na hortinha, o Bolinha canta para o amigo novo, o Sementinha, que não para de pular |
 | Duração-alvo | ~21s no **Google Flow**: bloco 1 de 8s + extensão de 7s + bloco final de 6s que termina no 1º frame |
 | Data de publicação | 2026-10-01 |
 | Status | roteiro |
 
 **Como o conceito aparece:**
-- **1ª aparição:** o refrão pergunta e responde a cor ("Morango, que cor?" → "Vermelho, vermelho!") enquanto o Sementinha gira mostrando o corpo vermelho.
+- **1ª aparição:** o refrão canta "vermelho e com pintinhas" enquanto o Sementinha pula e balança mostrando o corpo vermelho.
 - **2ª aparição:** a estrofe canta as **sementinhas por fora**, que aparecem no corpo dele o tempo todo. O vídeo não tem nenhuma ação com as sementes: nos testes, apontar, aproximar a câmera ou fazer brilhar as sementes deformou o personagem.
 - **Variação:** o refrão volta com o Sementinha sentado no chapéu do Bolinha, e a criança já responde "Vermelho!" junto.
-- "Vermelho" é cantado 4 vezes. O nome dele aparece no fim ("Oi, Sementinha!") e no título.
+- "Vermelho" é cantado 3 vezes no corte final. O nome dele aparece no refrão ("pula o Sementinha"), no fim ("Oi, Sementinha!") e no título.
 
 ## 2. Ficha de variação
 
@@ -39,10 +39,10 @@ Referências:
 | Objetivo | Reconhecer o morango: vermelho, sementinhas por fora | Apontar o próprio nariz | Associar a vaca ao "muu" |
 | Cenário | Hortinha de morangos | Pasto com fardo de feno e girassol | Janela do celeiro |
 | Iluminação | Fim de tarde, luz dourada | Meio-dia, sol claro | Manhã |
-| Estrutura (musical ou de falas) | **Pergunta e resposta** cantada | Pergunta e resposta falada | Onomatopeia + chamada e resposta |
+| Estrutura (musical ou de falas) | **Refrão com onomatopeia** ("boing, boing, boing") + verso que conta | Pergunta e resposta falada | Onomatopeia + chamada e resposta |
 | Instrumento principal | Marimba + estalos de dedo + baixo suave | Kalimba + pizzicato | Ukulele + palmas + sininho |
 | Andamento (BPM) | **120 BPM** (1 compasso = 2s; ~21s ≈ 10 compassos e meio) | 84 BPM | 96 BPM |
-| Tonalidade | Ré maior. Pergunta subindo ("que cor?"), resposta descendo ("vermelho, vermelho") | Fá maior (só trilha) | Sol maior |
+| Tonalidade | Ré maior (pedido ao Suno) | Fá maior (só trilha) | Sol maior |
 | Momento surpresa | O Sementinha pula e cai sentado em cima do chapéu do Bolinha | Espirro para o alto e girassol "boing" | Chapéu voa |
 | Final / loop | Os dois lado a lado, olhando para a câmera (o bloco 3 termina **no próprio 1º frame**) | A Nuvem volta a cheirar o girassol | Amiga se esconde |
 
@@ -53,7 +53,7 @@ Referências:
 | 0:00–0:01 | 1 | **Gancho:** os dois já em cena, lado a lado. O Sementinha dá um pulo alto de alegria ("boing!") e o Bolinha arregala os olhos, animado | Efeito **"boing!"** + música começa |
 | 0:01–0:05 | 1 | Bolinha aponta o Sementinha e dança; o Sementinha balança de um lado para o outro, sempre de frente, mostrando como é vermelhinho | **Refrão (1ª vez)** |
 | 0:05–0:08 | 1 | O Sementinha pula de alegria no lugar, no ritmo, e acena para a câmera; o Bolinha bate as asinhas. Câmera parada | **Estrofe** |
-| 0:08–0:09 | 2 (extensão) | O Sementinha se abaixa, preparando um pulo, olhando para o chapéu do Bolinha | "plim!" + instrumental |
+| 0:08–0:09 | 2 (extensão) | O Sementinha se abaixa, preparando um pulo, olhando para o chapéu do Bolinha | Música |
 | 0:09–0:11 | 2 | **Surpresa:** "boing!", o Sementinha pula e cai sentado **em cima do chapéu** do Bolinha; o Bolinha olha para cima, vesguinho, e ri | Efeito **"boing!"** + risadinha |
 | 0:11–0:15 | 2 | O Bolinha dança com cuidado, com o Sementinha balançando no chapéu | **Refrão (2ª vez)** |
 | 0:15–0:17 | 3 | O Sementinha desce do chapéu pulando e cai sentado no canteiro, ao lado do Bolinha | "Oi, Sementinha!" + "boing!" |
@@ -61,29 +61,28 @@ Referências:
 
 ## 4. Letra
 
-**Refrão** (2 versos, cantado 2x):
+A letra foi alterada na hora de gerar no Suno (01/10). Esta é a versão cantada. O Suno fez a música a **~99 BPM**, e não aos 120 pedidos.
+
+**Refrão** (cantado 2x):
 
 ```
-Morango, que cor?
-Vermelho, vermelho!
+Boing, boing, boing, pula o Sementinha
+Boing, boing, boing, vermelho e com pintinhas
 ```
 
-**Letra completa, por geração** (120 BPM, 1 compasso = 2s; no máximo 7 sílabas por compasso, para caber em ~21s num ritmo que a criança acompanha):
+**Tempos no vídeo final** (a música começa em 6,1s do arquivo, no 2º "Boing", para o "Oi, Sementinha!" caber no fim; o 1º verso do refrão fica de fora):
 
-| Bloco | Tempo | Trecho |
-|---|---|---|
-| 1 | 0,0–1,0s | *(efeito: boing!)* |
-| 1 | 1,0–3,0s | Morango, que cor? |
-| 1 | 3,0–5,0s | Vermelho, vermelho! |
-| 1 | 5,0–7,0s | Sementinhas por fora, |
-| 1 → 2 | 7,0–9,0s | plim, plim, plim! |
-| 2 | 9,0–11,0s | *(instrumental + boing! + risadinha)* |
-| 2 | 11,0–13,0s | Morango, que cor? |
-| 2 | 13,0–15,0s | Vermelho, vermelho! |
-| 3 | 15,0–17,0s | Oi, Sementinha! |
-| 3 | 17,0–21,0s | *(acorde final)* |
+| Tempo no vídeo | Trecho |
+|---|---|
+| 0,2–2,0s | Boing, boing, boing, |
+| 2,3–4,2s | vermelho e com pintinhas |
+| 4,5–7,0s | Tem sementinha por fora, uma, duas, três |
+| 7,1–9,3s | O morango é vermelho, canta outra vez |
+| 9,8–14,3s | Boing, boing, boing, pula o Sementinha |
+| 14,6–18,4s | Boing, boing, boing, vermelho e com pintinhas |
+| 18,7–20,2s | Oi, Sementinha! |
 
-Regras: frases curtas, palavras simples (1 a 4 anos), onomatopeia ("plim"), nada parecido com músicas infantis conhecidas.
+Regras: frases curtas, palavras simples (1 a 4 anos), onomatopeia ("boing"), nada parecido com músicas infantis conhecidas.
 
 ## 5. Geração no Google Flow (Veo 3.1)
 
@@ -269,16 +268,16 @@ children's nursery song, bouncy and happy, 120 BPM, D major, marimba, finger sna
 [Intro]
 
 [Chorus]
-Morango, que cor?
-Vermelho, vermelho!
+Boing, boing, boing, pula o Sementinha
+Boing, boing, boing, vermelho e com pintinhas
 
 [Verse]
-Sementinhas por fora,
-plim, plim, plim!
+Tem sementinha por fora, uma, duas, três
+O morango é vermelho, canta outra vez
 
 [Chorus]
-Morango, que cor?
-Vermelho, vermelho!
+Boing, boing, boing, pula o Sementinha
+Boing, boing, boing, vermelho e com pintinhas
 
 [Outro]
 Oi, Sementinha!
@@ -334,7 +333,7 @@ python scripts/montar.py episodios/ep04-sementinha-morango
 **Descrição (copiar):**
 
 ```
-Morango, que cor? Vermelho! 🍓 O Chef Bolinha conhece o Sementinha, um morango vermelhinho com as sementes do lado de fora, que não para de pular! 🐥
+Boing, boing, boing! 🍓 O Chef Bolinha conhece o Sementinha, um morango vermelhinho com as sementes do lado de fora, que não para de pular! 🐥
 Musiquinha infantil para cantar junto e aprender sobre as frutas. Novo episódio todo dia!
 
 #musicainfantil #shorts #chefbolinha

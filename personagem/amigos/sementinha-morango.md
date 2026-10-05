@@ -1,8 +1,10 @@
 # Sementinha, o morango: bíblia do personagem
 
-Amigo do Chef Bolinha apresentado no **ep04** (2026-10-01).
+Amigo do Chef Bolinha (criado em 2026-10-01).
 
-Referência visual: ainda não existe. Gere antes do ep04 (ver [Referência no Gemini](#referência-no-gemini)) e salve como `personagem/amigos/sementinha-morango_referencia.png`.
+Referências visuais:
+- [`sementinha-morango_referencia.png`](sementinha-morango_referencia.png): **corpo inteiro, de frente, fundo creme. É a imagem que se anexa nos prompts.**
+- [`sementinha-morango_ficha.png`](sementinha-morango_ficha.png): ficha com detalhes. Serve para consulta; não anexe nos prompts, porque os círculos de detalhe podem aparecer no frame gerado.
 
 ---
 
@@ -27,8 +29,8 @@ Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry
 ## Som e voz
 
 - **Som característico:** "boing!" quando pula (ele pula o tempo todo).
-- **Voz (falas geradas no Veo, a partir do ep05):** voz de menininho bem pequeno, rápida e animada, um pouco mais aguda que a da Nuvem e mais "saltitante" que a do Bolinha.
-- Descrição para prompt: `a tiny, quick, bouncy little boy voice, cheerful and bright, speaking in Brazilian Portuguese`
+- Nas músicas não há falas: o "boing!" entra na letra ou como coro do Suno.
+- **Cuidado no vídeo:** não peça nenhuma ação com as sementinhas (brilhar, cair, mexer). Elas deformaram o personagem inteiro nos testes de 01/10/2026.
 
 ## Personalidade
 

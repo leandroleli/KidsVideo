@@ -1,184 +1,126 @@
-# Canal de vídeos infantis com IA: passo a passo
+# Canal Chef Bolinha: passo a passo
 
-Baseado no vídeo do TikTok (@ai.ghost29) que está nesta pasta (fora do git). A ideia: criar Shorts de **musiquinhas infantis mágicas** com o **Chef Bolinha**, animadas com IA, e postar no YouTube, cerca de 7 por semana.
+Músicas infantis originais de **2 a 4 minutos**, em **vídeo horizontal 16:9**, com o **Chef Bolinha** e os amigos dele. Cada música conta uma historinha com começo, meio e fim, como no vídeo de inspiração (Vaca Lola, "O balão levou Torito e Lolinha", https://www.youtube.com/watch?v=9mnn6WMilik).
 
-> **Fluxo padrão de cada vídeo:** copie [`episodios/_modelo/`](episodios/_modelo/episodio.md) para `episodios/epXX-<slug>/` e siga o `episodio.md` do começo ao fim (roteiro → geração → música → montagem → publicação → métricas).
+> **Fluxo de cada música:** copie [`musicas/_modelo/`](musicas/_modelo/musica.md) para `musicas/mXX-<slug>/` e siga o `musica.md` do começo ao fim.
 >
 > Arquivos de apoio:
-> - [`personagem.md`](personagem.md): bíblia do personagem e prompt âncora
-> - [`calendario.md`](calendario.md): calendário a partir do ep03 (pares apresentação + educativo)
+> - [`personagem.md`](personagem.md): bíblia do Chef Bolinha e prompt âncora
+> - [`personagem/amigos/`](personagem/amigos/): bíblias da Vaquinha Nuvem e do Sementinha
+> - [`scripts/montar_musica.py`](scripts/montar_musica.py): junta os clipes com a música
 
 ---
 
 ## Visão geral do fluxo
 
-| # | Etapa | Ferramenta |
-|---|-------|-----------|
-| 1 | Achar canais de referência que estão bombando | YouTube |
-| 2 | Entender quanto o YouTube paga | Google |
-| 3 | Escrever roteiro e letra de um Short de 20s | ChatGPT (ou Claude) + `episodio.md` |
-| 4 | Gerar os clipes de vídeo | **Gemini (Veo)**; alternativas: Dreamina, capafy.ai |
-| 5 | Gerar a música cantada | Suno |
-| 6 | Montar, publicar e medir | CapCut + YouTube Studio |
+| # | Etapa | Ferramenta | Quando |
+|---|-------|-----------|--------|
+| 1 | História, letra e mapa de clipes | Claude (skill `chef-bolinha-musicas`) | Dia 0 |
+| 2 | Música completa (2 a 4 min) | Suno | Dia 0 |
+| 3 | Mapa com os tempos reais da música | Claude (Whisper na voz do Suno) | Dia 0 |
+| 4 | Clipes de 20s, **2 por dia** | Gemini (imagem do 1º quadro + Veo) | Dia 1 em diante |
+| 5 | Prévia diária e montagem final | `scripts/montar_musica.py` | Todo dia / no fim |
+| 6 | Publicação e métricas | YouTube Studio | No fim |
+
+**A música vem primeiro.** Ela define a duração de cada trecho e, por isso, quantos clipes faltam. Os clipes são cortados para caber nela, e nunca o contrário.
 
 ---
 
-## Aprendizados do 1º Short ("A Sopa Mágica", 21s)
+## Etapa 1: história e letra
 
-- **Comentários e notificações desativados são esperados.** Todo vídeo marcado como "Sim, é conteúdo para crianças" tem comentários, sininho de notificação e alguns recursos desligados automaticamente. Isso não é erro nem punição, e **nunca** se muda a marcação para recuperá-los.
-- **O alcance vem de três lugares:** o **feed de Shorts**, a **busca** e a **retenção/replay**. Por isso:
-  - **Gancho no 1º segundo:** personagem em ação e música já tocando, sem introdução.
-  - **Loop:** a última cena emenda na primeira (mesma pose, mesmo enquadramento). Assim a pessoa assiste de novo sem perceber.
-  - **Refrão curto repetido pelo menos 2x:** a criança pede "de novo".
-  - **Título, descrição e tags em PT-BR** com o que os pais buscam: "musiquinha infantil", "música para bebê", "música para crianças" + o tema.
-- O ep01 abriu sem o personagem, teve loop só parcial e não tinha música cantada. Detalhes em [`episodios/ep01-sopa-magica/episodio.md`](episodios/ep01-sopa-magica/episodio.md).
+Peça ao Claude: "cria a música m02" (ou "uma música sobre X"). A skill escreve o `musica.md` com:
 
----
+- **História em 4 atos:** situação → problema engraçado → tentativas → solução e festa. Nada assustador: o "problema" é leve (um chapéu que voa, um bolo que rola, uma pipa presa na árvore).
+- **Letra** com refrão repetido 3 ou 4 vezes, uma **ponte** de participação (pergunta e resposta, contagem, "cadê?") e um refrão final com a letra mudada (o problema resolvido).
+- **Mapa de clipes:** cada trecho de ~20s da música ganha um clipe. **Os refrões reaproveitam clipes**, então uma música de 3 min precisa de 7 a 9 clipes novos, e não de 9 a 12.
 
-## Passo 1: Achar canais de referência
+## Etapa 2: música no Suno
 
-1. Abra o YouTube e pesquise canais infantis grandes. No vídeo ele usou o **NuNu Tv - Nursery Rhymes** (cerca de 28 milhões de inscritos).
-2. Outros exemplos do mesmo nicho: Cocomelon, Super Simple Songs, ChuChu TV, BabyBus, Little Angel. Em português: Galinha Pintadinha, Mundo Bita, Bob Zoom.
-3. Na aba **Vídeos** / **Shorts**, ordene por **Populares** e anote:
-   - os temas que mais dão views (comida, animais, cores, números, hora de dormir…)
-   - o estilo visual (3D fofinho, cores fortes, personagem bebê)
-   - a duração e o formato
-   - como são os títulos e as thumbnails
+1. Cole o **Style** e a **Lyrics** da seção 3 do `musica.md` no Suno (modo Custom), com a **Persona "Chef Bolinha"**.
+2. Gere algumas versões e escolha uma com dicção clara e duração entre 2 e 4 min.
+3. Salve como `musicas/mXX-<slug>/musica.wav` (ou `.mp3`).
+4. Se mudar a letra no Suno, atualize a seção 3 antes da etapa 3.
+5. O uso comercial exige **plano pago** do Suno.
 
-> **Importante:** use esses canais só como **inspiração**. Não copie personagens, músicas nem nomes deles, porque isso gera strike de direitos autorais. A lista de músicas conhecidas a evitar está [mais abaixo](#músicas-conhecidas-a-evitar).
+## Etapa 3: mapa com os tempos reais
 
----
+Peça ao Claude: "mapeia a música mXX". Ele separa a voz, acha o início de cada verso e preenche o `mapa.yaml`: de que segundo a que segundo vai cada clipe e onde entram os reaproveitados. A tabela de clipes do `musica.md` é atualizada com a duração real de cada um.
 
-## Passo 2: Pesquisar quanto o YouTube paga
+## Etapa 4: clipes de 20s (2 por dia)
 
-No Google, pesquise: `quanto o youtube paga por 1 milhão de visualizações`.
+Para cada clipe, na ordem do **plano de dias** do `musica.md`:
 
-Para ter expectativas realistas:
-- **Para ganhar qualquer coisa**, você precisa entrar no **Programa de Parcerias do YouTube (YPP)**. Os requisitos são 1.000 inscritos **e** 4.000 horas assistidas em 12 meses, **ou** 1.000 inscritos **e** 10 milhões de views em Shorts em 90 dias.
-- **Shorts pagam bem menos** que vídeos longos (em geral centavos de dólar a cada 1.000 views).
-- **Conteúdo infantil** ("Feito para crianças") não tem anúncios personalizados, então paga menos por view.
-- Dá para ganhar dinheiro com isso, mas não é garantido. Leva meses de consistência.
-
----
-
-## Passo 3: Roteiro e letra
-
-1. Escolha o próximo episódio em [`calendario.md`](calendario.md).
-2. Copie `episodios/_modelo/` para a pasta do episódio.
-3. Peça o roteiro ao ChatGPT ou ao Claude com o prompt abaixo e cole o resultado nas seções 2 a 4 do `episodio.md`.
-
-```
-Crie um Short de musiquinha infantil ORIGINAL, em português do Brasil, para o YouTube
-(vertical 9:16), com o personagem Chef Bolinha (pintinho amarelo de chapéu de chef,
-lenço vermelho e avental azul de bolinhas).
-
-Série: [Comidas / Cores / Animais / Números / Rotina]
-Tema: [ex: a Vaquinha Nuvem na fazendinha]
-Cenário: [da série]  |  Estrutura musical: [da série]  |  Andamento: [BPM da série]
-
-Regras:
-- Duração de 20s, dividida em 2 partes de 10s (limite do Veo no Gemini). Timestamps por cena.
-- Gancho no 1º segundo: personagem já em ação e música tocando, sem introdução.
-- Letra original: frases curtas, palavras simples (1 a 4 anos), rima fácil,
-  onomatopeias ou contagem conforme a série.
-- Refrão de 2 a 4 versos, repetido pelo menos 2x.
-- Nenhuma semelhança com músicas infantis conhecidas (Seu Lobato, Cinco Patinhos,
-  Pintinho Amarelinho, Galinha Pintadinha, Borboletinha etc.).
-- Um momento surpresa engraçado (sem "brilho mágico na panela").
-- Loop: a última cena termina na mesma pose e enquadramento da primeira.
-- Diga qual trecho da letra cai em cada parte (0–10s e 10–20s).
-- Na 1ª cena o personagem já está visível e em ação (nada de explosão antes dele).
-
-No final, gere 2 prompts de vídeo em inglês (Parte 1: começa com "Start exactly from
-the attached image"; Parte 2: "Start exactly from the attached image and continue the
-same scene"), repetindo nos dois a descrição âncora do personagem e a mesma frase de cenário.
-```
-
-**Dicas:**
-- Mantenha o **mesmo personagem** em todos os vídeos. Use sempre o prompt âncora do [`personagem.md`](personagem.md).
-- Preencha a **ficha de variação** e compare com os últimos 3 episódios antes de gerar.
-
----
-
-## Passo 4: Gerar os clipes no Gemini (Veo)
-
-1. Abra o **Gemini** (gemini.google.com ou app) com a conta do plano Google AI.
-2. **Limites atuais:** **2 gerações de vídeo por dia**, de ~10s cada. Por isso o padrão é **1 episódio de 20s por dia**: geração 1 (0–10s) + continuação (até 20s).
-3. Primeiro gere a **imagem do 1º frame** (Gemini, criação de imagem) anexando a referência do personagem.
-4. Em **Vídeo**, anexe a imagem e cole o prompt da parte 1. O prompt começa com `Start exactly from the attached image`: sem essa frase, o Gemini usa a imagem só como referência de personagem e inventa a abertura.
-5. Para a parte 2, anexe o **último frame** da parte 1 e peça para continuar. O Gemini devolve o **vídeo inteiro de 20s** já emendado (testado no ep01):
+1. **1º quadro:** no Gemini (criação de imagem), anexe as referências dos personagens que aparecem (`*_referencia.png`) e cole o prompt de imagem do clipe. Formato **horizontal 16:9**. Salve como `imagens/cXX_inicio.png`.
+2. **Parte A (0–10s):** em Vídeo, anexe o 1º quadro e cole o **bloco fixo** + o prompt da Parte A.
+3. **Parte B (10–20s):** anexe o último quadro da Parte A e cole o **bloco fixo** + o prompt da Parte B. O Gemini devolve os 20s emendados.
 
    ```
-   ffmpeg -sseof -0.1 -i videos/parte1.mp4 -frames:v 1 imagens/parte1_ultimo_frame.png
+   ffmpeg -sseof -0.1 -i clipes/c01a.mp4 -frames:v 1 imagens/c01a_ultimo.png
    ```
 
-6. O passo a passo completo, com os prompts prontos, fica na seção 5 de cada `episodio.md`.
+4. Salve o clipe final como `clipes/cXX.mp4` (ex.: `clipes/c03.mp4`).
+5. Rode a prévia (etapa 5) para ver como a música está ficando.
 
-> **Marca d'água:** o ep01 saiu do Gemini **sem selo visível** (fica só a marca invisível SynthID). Se algum dia aparecer um selo "Veo" visível, não o cubra: ele é o rótulo de IA do Google.
->
-> **Sem margem:** as 2 gerações do dia são o episódio inteiro. Se algo sair errado, refaça no Flow ou no dia seguinte.
+**Clipes não precisam emendar entre si.** Num vídeo longo, o corte de uma cena para outra é normal. Por isso cada clipe parte do seu próprio 1º quadro, gerado com as referências, e um erro num clipe não estraga os outros.
 
-**Alternativas:**
-- **Flow** (labs.google/flow): mesmo Veo, com mais controle de frames e formato vertical.
-- **Dreamina**: usado no ep01. Atenção à marca d'água "Dreamina AI" nas imagens.
-- **capafy.ai** ("Odeo Maker", do vídeo de referência): pago, clipes de até ~15s.
-- Outras: Kling, Hailuo/MiniMax, Runway, Pika.
+**Regras de prompt que funcionaram** (testes de 01/10/2026):
+- Linha de identidade **positiva** ("Nuvem has white fur with light-gray cloud spots"), sem negações ("no beak").
+- Cada ação diz **quem** faz e **de que lado** ("the red strawberry on the right jumps").
+- **Câmera parada** ou movimento lento. Nada de efeito em detalhe pequeno (as sementes do Sementinha deformaram tudo).
+- **Sem falar nem cantar com a boca** (o áudio do Veo é descartado e a boca não bateria com a música). Sorrisos, risadas abertas e "Muu!" curtos estão liberados.
+- Posições fixas na música inteira: **Nuvem à esquerda, Bolinha no meio, Sementinha à direita**, salvo quando a história pedir outra coisa.
 
----
+## Etapa 5: montagem
 
-## Passo 5: Gerar a música (Suno)
+```
+python scripts/montar_musica.py musicas/mXX-<slug>
+```
 
-1. A música inteira é feita no **Suno**, numa faixa única. Isso garante a mesma voz e melodia do começo ao fim. O áudio do Veo é descartado (no ep01 ele fez bem a música de fundo e as falas, mas cantar uma letra exata é arriscado quando não dá para refazer).
-2. Use a **Persona "Chef Bolinha"** para manter a voz entre episódios (criada no ep02).
-3. Uso comercial exige **plano pago** do Suno.
-4. O estilo e a letra com tags ficam na seção 6 de cada `episodio.md`.
+- Lê o `mapa.yaml`, corta cada trecho do clipe certo, junta tudo em 1920×1080 a 24 fps e coloca a música do Suno por cima (áudio do Veo descartado, volume em -14 LUFS).
+- **Clipe que ainda não existe vira uma tela cinza**, então dá para rodar todo dia e ver a música "se completando".
+- Clipe mais curto que o trecho tem o último quadro congelado; o relatório avisa.
+- Saída em `musicas/mXX-<slug>/montagem/`: `final.mp4` e `relatorio.md`.
 
----
+## Etapa 6: publicar e medir
 
-## Passo 6: Montar, publicar e medir
-
-1. **Montagem no CapCut** (seção 7 do `episodio.md`):
-   - projeto 9:16;
-   - áudio do vídeo silenciado e música sincronizada;
-   - efeitos sonoros;
-   - legenda nos refrões;
-   - corte seco no final para fechar o loop.
-2. **YouTube Studio → Criar → Enviar vídeos.** Preencha tudo conforme a seção 8 do `episodio.md`:
-   - **Título:** `[Tema] do Chef Bolinha 🍲✨ | Musiquinha Infantil`. Troque o emoji pelo da série.
-   - **Descrição:** 2 ou 3 linhas + `#musicainfantil #shorts #chefbolinha`
-   - **Tags:** `musiquinha infantil, música para bebê, música para crianças` + tema
-   - **Playlist:** a indicada na seção 8 do `episodio.md` (ordem dos episódios em [`calendario.md`](calendario.md))
-   - **Público:** **"Sim, é conteúdo para crianças"**. Isso é **obrigatório por lei (COPPA)**, e marcar errado pode gerar multa e derrubar o canal.
+1. **YouTube Studio → Criar → Enviar vídeos**, com os dados da seção 7 do `musica.md`:
+   - **Título:** `[Título da música] 🎩 | Chef Bolinha | Música Infantil`
+   - **Descrição:** 2 ou 3 linhas sobre a história + a letra completa + `#musicainfantil #chefbolinha #desenhoinfantil`
+   - **Tags:** `música infantil, musica para crianças, desenho infantil, música para bebê` + tema e personagens
+   - **Público:** **"Sim, é conteúdo para crianças"**. É **obrigatório por lei (COPPA)**, e marcar errado pode gerar multa e derrubar o canal.
    - **Conteúdo alterado/sintético:** **Sim**
    - **Idioma:** Português (Brasil). **Categoria:** Educação.
-3. **Métricas:** anote em 24h e em 7 dias (seção 10 do `episodio.md`).
-4. Meta: **7 vídeos por semana** (1 por dia), conforme o calendário.
+2. **Thumbnail:** um quadro de um dos clipes com a ação principal (ex.: o chapéu voando), personagens grandes e sem texto pequeno.
+3. **Métricas:** anote em 24h e em 7 dias na seção 8 do `musica.md`.
+
+---
+
+## Monetização: expectativas
+
+- Para ganhar qualquer coisa é preciso entrar no **Programa de Parcerias (YPP)**: 1.000 inscritos **e** 4.000 horas assistidas em 12 meses. Vídeos longos contam horas assistidas, coisa que os Shorts não fazem. Por isso o formato de 2 a 4 min.
+- Conteúdo **"Feito para crianças"** não tem anúncio personalizado, e por isso paga menos por view.
+- Comentários e sininho desativados são **esperados** em vídeo para crianças. Nunca mude a marcação para recuperá-los.
 
 ---
 
 ## Anti "conteúdo produzido em massa"
 
-Desde 2025 o YouTube recusa monetização de canais com vídeos de IA "em série", todos iguais e com pouco valor original. O personagem fixo é a marca do canal. **Todo o resto varia.**
-
-**Matriz de variação** (preencha a ficha de cada `episodio.md` e compare com os 3 anteriores; se 3 ou mais linhas coincidirem, mude):
+Desde 2025 o YouTube recusa monetizar canais com vídeos de IA "em série", todos iguais e com pouco valor original. Os personagens fixos são a marca do canal. **Todo o resto varia de uma música para outra:**
 
 | Eixo | Como variar |
 |---|---|
-| Par | Apresentação (musiquinha com amigo novo) e educativo (falas com o mesmo amigo), sempre em sequência. O tipo de amigo varia entre pares: animal, fruta, objeto da cozinha |
-| Cenário | Um por par (o educativo continua o cenário da apresentação), nunca repetido em pares seguidos: cozinha, horta, fazenda, lagoa, jardim, rio, parque |
-| Luz / hora do dia | Manhã, meio-dia, tarde dourada, noite |
-| Estrutura | Apresentação: acumulativa, pergunta e resposta, onomatopeia, contagem, passo a passo/ninar. Educativo: pergunta e resposta falada, brincadeira de achar, contagem, imitação |
-| Instrumento | Marimba, piano de brinquedo, ukulele, glockenspiel, violão/caixinha de música |
-| Andamento | 70 a 120 BPM, sem repetir em episódios seguidos |
-| Tonalidade | Não repetir em episódios seguidos (Dó → Sol → Ré → Fá → Lá) |
-| Momento surpresa | Sempre diferente; nada de repetir o "brilho mágico na panela" |
-| Final / loop | A pose e a ação do loop mudam por episódio |
-| Personagens convidados | Amigos de pares anteriores podem voltar como convidados (ex.: a Vaquinha Nuvem num episódio de outro amigo) |
+| História / problema | Sempre um problema diferente (chapéu voou, bolo rolou, pipa presa, ovo sumiu, chuva no piquenique) |
+| Cenário | Fazendinha, horta de morangos, cozinha, lagoa, jardim, parque, praia. Não repetir em músicas seguidas |
+| Luz / hora do dia | Manhã, meio-dia, tarde dourada, noite estrelada |
+| Ritmo e estilo | Pop infantil, forró/baião, marchinha, xote, reggae infantil, valsinha, rock de brinquedo |
+| Andamento | 80 a 130 BPM, sem repetir em músicas seguidas |
+| Participação | Pergunta e resposta, contagem, "cadê?", imitar som de bicho, bater palmas |
+| Protagonista | Alterna quem resolve o problema: Bolinha, Nuvem ou Sementinha |
 
 **Outros cuidados:**
-- **Direitos autorais:** nada de usar personagens, músicas ou nomes de canais existentes. Veja a [lista de músicas a evitar](#músicas-conhecidas-a-evitar).
-- **Qualidade para criança:** revise cada vídeo. Nada assustador, estranho ou inadequado, porque o YouTube é rígido com conteúdo infantil.
-- **Custos:** calcule quanto gasta de IA por vídeo (plano do Gemini + Suno) e compare com o que o canal ganha.
+- **Direitos autorais:** nada de personagens, músicas ou nomes de canais existentes (veja a lista abaixo).
+- **Qualidade para criança:** assista ao vídeo inteiro antes de publicar. Nada assustador, estranho ou deformado.
+- **Custos:** anote quanto gasta de IA por música (plano do Gemini + Suno).
 
 ---
 
@@ -186,19 +128,19 @@ Desde 2025 o YouTube recusa monetização de canais com vídeos de IA "em série
 
 Nada de letra, melodia ou estrutura parecida com:
 
-Seu Lobato ("ia-ia-ô"), Cinco Patinhos, **Pintinho Amarelinho** (atenção: o Bolinha é um pintinho amarelo, então nunca use essa expressão na letra), Galinha Pintadinha, Sapo Não Lava o Pé, Sapo Cururu, Borboletinha, Atirei o Pau no Gato, A Dona Aranha, Parabéns pra Você, Brilha Brilha Estrelinha, Ciranda Cirandinha, Baby Shark, Eguinha Pocotó.
+Seu Lobato ("ia-ia-ô"), Cinco Patinhos, **Pintinho Amarelinho** (o Bolinha é um pintinho amarelo: nunca use essa expressão), Galinha Pintadinha, Sapo Não Lava o Pé, Sapo Cururu, Borboletinha, Atirei o Pau no Gato, A Dona Aranha, Parabéns pra Você, Brilha Brilha Estrelinha, Ciranda Cirandinha, Baby Shark, Eguinha Pocotó, **A Vaca Lola**, **Boi da Cara Preta**.
 
 ---
 
 ## Checklist de publicação
 
-Cada `episodio.md` tem uma cópia deste checklist. Marque lá.
+Cada `musica.md` tem uma cópia deste checklist. Marque lá.
 
 - [ ] "Sim, é conteúdo para crianças" (nunca mudar para recuperar comentários)
 - [ ] Divulgação de conteúdo alterado/sintético (IA) marcada
 - [ ] Letra e melodia originais, sem semelhança com músicas conhecidas (risco de Content ID)
 - [ ] Etapa "Verificações" do upload sem aviso de direitos autorais
-- [ ] Vídeo final sem marca d'água
+- [ ] Vídeo inteiro assistido: nenhum personagem deformado, nenhuma tela cinza
 - [ ] Ferramentas usadas permitem uso comercial (Gemini/Veo e Suno pago)
-- [ ] Título, descrição e playlist conforme o template / `episodio.md`
+- [ ] Título, descrição (com a letra) e thumbnail conforme a seção 7
 - [ ] Verificar no Studio → Conteúdo → Restrições 24h após postar

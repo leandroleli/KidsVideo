@@ -1,6 +1,6 @@
 # Vaquinha Nuvem: bíblia do personagem
 
-Amiga do Chef Bolinha apresentada no **ep02** (2026-09-29).
+Amiga do Chef Bolinha (criada em 2026-09-29).
 
 Referências visuais:
 - [`vaquinha-nuvem_referencia.png`](vaquinha-nuvem_referencia.png): **corpo inteiro, de frente, fundo creme. É a imagem que se anexa nos prompts.**
@@ -30,15 +30,12 @@ Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft clo
 ## Som e voz
 
 - **Som característico:** "Muu!" alegre. O sininho faz "blim-blom" quando ela balança a cabeça.
-- **Voz (falas geradas no Veo):** voz de menininha, um pouco mais grave e mais calma que a do Bolinha, doce e risonha. Fala devagar e alonga o "u" ("Muuuito bem!").
-- Descrição para prompt: `a sweet, calm, slightly lower little girl voice, warm and giggly, speaking slowly in Brazilian Portuguese`
-- **Amostra oficial:** [`../vozes/nuvem_voz.wav`](../vozes/nuvem_voz.wav) (falas do ep03, já com o ajuste abaixo).
-- **Ajuste na montagem:** o Veo costuma dar a mesma voz para a Nuvem e o Bolinha. Abaixe **3 semitons** só nos trechos da Nuvem, preservando o timbre (`rubberband=pitch=0.8409:formant=preserved:pitchq=quality`). O Bolinha fica sem ajuste. Compare o resultado com a amostra oficial. Veja o comando em [`personagem.md`](../../personagem.md#voz-nas-falas-do-veo).
+- Nas músicas não há falas: o "Muu!" e o sininho entram na letra ou como coro do Suno.
 
 ## Personalidade
 
 - Calma, carinhosa e brincalhona. Adora brincar de esconde-esconde ("Cadê?") na janela do celeiro.
-- Quando fica muito feliz, solta um "MUU" grandão sem querer (foi o que fez o chapéu do Bolinha voar no ep02).
+- Quando fica muito feliz, solta um "MUU" grandão sem querer.
 
 ## Onde mora
 
@@ -61,13 +58,13 @@ Setting: a cute pastel farm on a sunny morning: a small red-and-cream wooden bar
 
 A referência atual foi gerada assim em 2026-09-30. Use para refazer se precisar.
 
-1. Gemini → criação de imagem → anexe a referência atual, ou um frame do ep02 em que ela esteja grande e de olhos abertos (a de 2026-09-30 saiu do frame de 8,3s da `parte1`). Não use o `parte1_ultimo_frame.png`: nele ela aparece pequena e de olhos fechados.
+1. Gemini → criação de imagem → anexe a referência atual.
 2. Cole:
 
    ```
    Recreate the baby cow in this image as a clean character reference sheet: full body, front view, standing on four legs, centered, on a plain soft cream background. Keep every detail identical: white fur with soft cloud-shaped light-gray spots (one around her eye), fluffy white tuft on the head, big glossy dark-brown eyes with eyelashes, big rounded pink snout, rosy cheeks, white ears with pink insides, tiny rounded cream horns, small golden bell on a blue ribbon. Small pink hooves, short thin tail with a white tuft. Cute 3D Pixar-like style, soft lighting. Vertical 9:16. No text, no logos, no watermark.
    ```
 
-3. Gere 2 ou 3 variações e escolha a mais fiel ao ep02: manchas cinza-claro (nunca pretas), sino dourado, fita azul, chifrinhos creme.
+3. Gere 2 ou 3 variações e escolha a mais fiel à referência atual: manchas cinza-claro (nunca pretas), sino dourado, fita azul, chifrinhos creme.
 4. Se o Gemini acrescentar círculos de detalhe, salve a folha inteira em PNG como `personagem/amigos/vaquinha-nuvem_ficha.png`.
 5. Recorte só o corpo inteiro, sem os círculos, e salve como `personagem/amigos/vaquinha-nuvem_referencia.png`.

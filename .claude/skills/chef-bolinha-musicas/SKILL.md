@@ -25,7 +25,7 @@ Leia os três antes de escrever. Não invente características que contradigam a
 
 ### A. Ideias de músicas
 
-Proponha 3 a 5 ideias, cada uma com título, problema engraçado, cenário, quem resolve, ritmo e participação da criança. Varie conforme a seção 7.
+Proponha 3 a 5 ideias, cada uma com título, problema engraçado, cenário, quem resolve, ritmo e participação da criança. Varie conforme a seção 7. Parta do backlog em `musicas/ideias.md` e, se o usuário aprovar ideias novas, acrescente-as lá no mesmo formato.
 
 ### B. Criar música ("cria a m02")
 

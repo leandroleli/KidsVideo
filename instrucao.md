@@ -8,6 +8,7 @@ Músicas infantis originais de **2 a 4 minutos**, em **vídeo horizontal 16:9**,
 > - [`personagem.md`](personagem.md): bíblia do Chef Bolinha e prompt âncora
 > - [`personagem/amigos/`](personagem/amigos/): bíblias da Vaquinha Nuvem e do Sementinha
 > - [`scripts/montar_musica.py`](scripts/montar_musica.py): junta os clipes com a música
+> - [`musicas/ideias.md`](musicas/ideias.md): backlog de ideias para as próximas músicas
 
 ---
 

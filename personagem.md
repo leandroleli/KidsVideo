@@ -4,6 +4,8 @@ Referência visual oficial: [`personagem/bolinha_referencia.png`](personagem/bol
 
 Ficha com detalhes (estrela do chapéu, olho, laço do lenço, bolso do avental): [`personagem/bolinha_ficha.png`](personagem/bolinha_ficha.png). Serve para consulta; não anexe nos prompts, porque os círculos de detalhe podem aparecer no frame gerado.
 
+Close do rosto e do uniforme na cozinha (vertical, gerado no Gemini), só para consulta: [`personagem/bolinha_closeup.png`](personagem/bolinha_closeup.png).
+
 ---
 
 ## Aparência fixa (PT-BR)
@@ -17,6 +19,9 @@ Ficha com detalhes (estrela do chapéu, olho, laço do lenço, bolso do avental)
 - **Lenço:** vermelho, amarrado no pescoço com um laço.
 - **Avental:** azul-claro com **bolinhas brancas** e um bolso na frente.
 - **Estilo:** animação 3D fofa, acabamento suave, cores pastel, luz quente e macia.
+- **Sem mãos:** segura a colher e as coisas com as **asinhas**. Nas letras, legendas e prompts, sempre "asinhas" / "wings".
+- **Jeito de andar:** dá pulinhos (`moves with little hops`).
+- **Adereço opcional:** colher de pau com ponta dourada que brilha, a "colher mágica" (`wooden spoon with a glowing golden tip`). Entra só quando a história pedir mágica; não faz parte do prompt âncora.
 
 ## Prompt âncora (EN) — colar em TODO prompt de vídeo
 
@@ -33,6 +38,8 @@ Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feather
 ## Bordão
 
 **"Pi-piu, que delícia!"**: usado quando prova algo ou quando algo dá certo. Não precisa aparecer em toda música. Use no máximo 1 vez por música, e não em todas, para não virar fórmula.
+
+Opcional, para quando a colher mágica aparecer: **"Pim-pim-pom!"** (a ponta da colher brilha). Mesma regra: no máximo 1 vez por música.
 
 ## Voz (tom e estilo do canto)
 
@@ -53,6 +60,15 @@ Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feather
 | Olhos | Turquesa | `#2E9DB0` |
 
 Cenários em tons pastel (rosa, menta, creme) combinam com a paleta. Evite fundos escuros ou saturados demais.
+
+## Cenários fixos
+
+Descrições para colar no bloco fixo quando a música se passar nestes lugares (outros cenários são livres, ver a matriz de variação no `instrucao.md`).
+
+- **Cozinha do Bolinha:** cozinha aconchegante em tons pastel (menta, pêssego, creme), janela com sol, caldeirão azul-turquesa num fogãozinho, banquinho de madeira.
+  `cozy pastel kitchen (mint, peach, cream), sunny window, round turquoise cauldron on a small stove, small wooden stool`
+- **Banheirinho** (lavar as asinhas, escovar o bico, banho): tons pastel (azul-bebê, rosa-claro, creme), pia baixinha redonda com torneira dourada, sabonete de espuma, espelho redondo, toalhinha amarela, degrauzinho de madeira.
+  `small pastel bathroom (baby blue, light pink, cream), low round sink with a golden faucet, foam soap pump, round mirror, small yellow towel, little wooden step stool`
 
 ## O que NUNCA mudar
 

@@ -39,6 +39,20 @@ Primeira música do canal novo: não há anteriores para comparar.
 
 ## 3. Música (Suno)
 
+Suno → Custom → Persona "Chef Bolinha". Preencher:
+
+| Campo | Valor | Por quê |
+|---|---|---|
+| Título | `O Chapéu Voador` | |
+| Excluir estilo | `adult voice, deep voice, male baritone, autotune, rap, rock, heavy drums, distorted guitar, sad, slow ballad, English lyrics, opera, vibrato` | Evita voz adulta, sotaque em inglês e clima pesado |
+| Gênero vocal | Feminino | Voz de criança aguda sai melhor assim; com a Persona, ela já define a voz |
+| Duração | ~3:00 | Letra e mapa de clipes foram pensados para ~3 min |
+| Modo Max | Testar ligado | Se não gastar créditos a mais, deixar ligado e comparar |
+| Estranheza | 20–25% | Música previsível e grudenta; valores altos trazem arranjos esquisitos |
+| Variedade | Baixa | Mantém o estilo pedido; se as 2 versões saírem iguais, subir um pouco |
+| Style | bloco abaixo | |
+| Lyrics | bloco abaixo | |
+
 **Style:**
 
 ```
@@ -109,7 +123,7 @@ Pula, pula, vamos festejar,
 com os amigos é bom lanchar!
 
 [Outro]
-Pi-piu, que delícia!
+Pi-piu, que bolo bom!
 (Muu! Boing!)
 ```
 
@@ -143,200 +157,27 @@ Os tempos são estimados (116 BPM, ~3:00). Depois do Suno, o `mapa.yaml` ganha o
 
 ## 5. Prompts
 
-**Referências para anexar nas imagens:** [`personagem/bolinha_referencia.png`](../../personagem/bolinha_referencia.png), [`personagem/amigos/vaquinha-nuvem_referencia.png`](../../personagem/amigos/vaquinha-nuvem_referencia.png) e [`personagem/amigos/sementinha-morango_referencia.png`](../../personagem/amigos/sementinha-morango_referencia.png).
-
-### Bloco fixo
-
-Cole este bloco **no começo de todo prompt de vídeo** desta música (Parte A e Parte B).
-
-```
-Horizontal 16:9 children's cartoon. Cute 3D animated style, soft Pixar-like rendering, pastel colors, warm soft morning light. Static camera, wide shot, every character fully visible. No talking, no singing, no text on screen. Same character designs in every shot.
-Setting: a cute pastel farm on a sunny morning: a small red-and-cream wooden barn with a big round window, a soft green grassy hill, a white wooden fence, a few sunflowers, fluffy clouds in a light-blue sky, and a red-and-white checkered picnic blanket on the grass with a round golden corn cake on a plate.
-Sizes: Nuvem is the biggest, Chef Bolinha is small and round, Sementinha is about the size of Bolinha's head.
-Chef Bolinha: a tiny, round, fluffy baby chick with bright yellow fluffy feathers, big glossy turquoise-blue eyes with eyelashes, rosy pink cheeks, a small orange beak and tiny orange feet. He wears a tall, puffy white chef's hat with a small red star on the front band, a red neckerchief tied in a bow, and a light-blue apron with white polka dots and a front pocket.
-Nuvem the cow: a small, cute, chubby baby cow with white fur covered in soft cloud-shaped light-gray spots (one around her eye), a fluffy white tuft of fur on top of her head, big glossy dark-brown eyes with eyelashes, a big rounded pink snout, rosy pink cheeks, white ears with pink insides, tiny rounded cream-colored horns, and a small golden bell on a blue ribbon around her neck.
-Sementinha the strawberry: a small, plump, rounded, glossy bright-red strawberry character covered all over with tiny golden-yellow seeds on the outside of his body, with a fresh green leafy cap on top like a little crown and a short curly green stem, big glossy black eyes, rosy pink cheeks, a small happy smile, and tiny thin light-green arms and legs.
-```
-
-### c01: Piquenique
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A sunny pastel farm: red-and-cream barn with a big round window in the background, green grassy hill, white wooden fence, sunflowers, fluffy clouds. In the middle, on a red-and-white checkered picnic blanket, Chef Bolinha (the yellow chick in the chef's hat) proudly holds up a plate with a round golden corn cake. The left and right sides of the blanket are empty. Wide shot, all of the blanket visible. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha, in the middle, places the corn cake on the picnic blanket and happily flaps his little wings. Then he waves his wing toward the left side, calling a friend. Nuvem the cow walks in calmly from the left edge of the frame and stops on the left side of the blanket, swinging her head so her golden bell sways.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Sementinha the red strawberry hops in from the right edge of the frame with small bouncy jumps and lands on the right side of the blanket. The three friends stand around the cake: Nuvem on the left, Chef Bolinha in the middle, Sementinha on the right. They look at the cake and smile with big happy eyes.
-```
-
-### c02: O vento
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A sunny pastel farm with a red-and-cream barn, green hill, white fence and sunflowers. Around a red-and-white checkered picnic blanket with a round golden corn cake: Nuvem the baby cow on the left, Chef Bolinha the yellow chick in the middle wearing his tall white chef's hat, Sementinha the strawberry on the right. All three smile. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. A gentle breeze starts blowing from the left: the grass and the sunflowers sway softly and the corners of the picnic blanket flutter. Chef Bolinha's tall white chef's hat lifts off his head and floats slowly upward. Chef Bolinha, in the middle, touches the top of his head with his wing, surprised. Nuvem on the left and Sementinha on the right look up with big round surprised eyes.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. The white chef's hat floats higher and drifts slowly to the right across the light-blue sky, tumbling gently. Chef Bolinha, in the middle, points at the hat with his wing. Nuvem on the left and Sementinha on the right turn their heads to follow the hat. The hat floats away over the green hill on the right.
-```
-
-### c03: Correria
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A wide view of a soft green grassy hill on a sunny pastel farm, fluffy clouds in a light-blue sky, a few sunflowers. High in the sky on the right, a tall white chef's hat with a small red star floats in the air. On the left side of the hill, running toward the right with happy faces: Nuvem the baby cow, Chef Bolinha the yellow chick without his hat, and Sementinha the strawberry hopping. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha has no hat on his head. The white chef's hat floats slowly through the sky from left to right. Nuvem the cow, Chef Bolinha the chick and Sementinha the strawberry run happily across the green hill after it, from left to right, laughing with open smiles. Sementinha bounces with small hops. Smooth, slow side-tracking camera.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha has no hat on his head. The white chef's hat makes a slow loop in the sky above the three friends. Nuvem the cow, Chef Bolinha the chick and Sementinha the strawberry stop, look up and turn around in a little circle following the hat, then start running again to the right, laughing.
-```
-
-### c04: Boing!
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A sunny pastel farm meadow with a white wooden fence in the background and sunflowers. A tall white chef's hat with a small red star floats in the air, a little above the characters, in the right half of the frame. On the right, Sementinha the strawberry crouches, ready to jump, looking up at the hat. On the left, Nuvem the baby cow and Chef Bolinha the yellow chick without his hat watch with excited faces. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha has no hat on his head. Sementinha the red strawberry, on the right, jumps straight up three times, each jump higher, reaching up with his tiny green arms toward the floating white chef's hat. On the third jump he almost touches it. Nuvem the cow and Chef Bolinha, on the left, cheer with happy bouncing.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha has no hat on his head. The white chef's hat spins once in the air and floats away to the right, over the white wooden fence. Sementinha the red strawberry lands softly on the grass on the right and laughs. Nuvem the cow and Chef Bolinha on the left laugh too, and all three look toward the fence.
-```
-
-### c05: Correria 2 (opcional)
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A row of tall sunflowers on a sunny pastel farm, white fence behind them, fluffy clouds. A tall white chef's hat with a small red star floats above the sunflowers on the left. On the right, running toward the left along the sunflowers with happy faces: Sementinha the strawberry hopping, Chef Bolinha the yellow chick without his hat, and Nuvem the baby cow. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha has no hat on his head. The white chef's hat floats slowly from right to left above the sunflowers. Sementinha the strawberry, Chef Bolinha the chick and Nuvem the cow run happily along the row of sunflowers after it, from right to left, laughing with open smiles. Smooth, slow side-tracking camera.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha has no hat on his head. The white chef's hat bobs up and down in the breeze. The three friends jump at the same time trying to reach it, land on the grass and laugh together, then keep running to the left.
-```
-
-### c06: Cadê?
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. In front of a small red-and-cream wooden barn with a big round window, on a sunny pastel farm with sunflowers. Nuvem the baby cow on the left, near the barn; Chef Bolinha the yellow chick without his hat in the middle, next to a tall sunflower; Sementinha the strawberry on the right. All three look around with curious faces, searching for something. No hat anywhere. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha has no hat on his head. Chef Bolinha, in the middle, peeks behind the tall sunflower, then turns to the camera and shakes his head "no" with a funny face. Sementinha the strawberry, on the right, looks up at the sky with his eyes wide, then shakes his head "no" too.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha has no hat on his head. Nuvem the cow, on the left, pokes her head into the big round barn window, pulls it back out and shakes her head "no", her golden bell swinging. The three friends face the camera and shrug together with puzzled, funny faces.
-```
-
-### c07: Chef Nuvem
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A sunny pastel farm meadow with the barn in the background. Nuvem the baby cow in the center, looking up at the sky. Chef Bolinha the yellow chick without his hat on the left, and Sementinha the strawberry on the right, also looking up. High above Nuvem, a tall white chef's hat with a small red star floats down. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha has no hat on his head. Nuvem the cow, in the center, looks up at the sky. The white chef's hat floats down very slowly, swaying gently from side to side like a falling leaf, and lands perfectly on top of Nuvem's head, between her tiny cream horns.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Nuvem the cow, in the center, now wears the white chef's hat on her head. She lifts her chin proudly and smiles with her eyes closed. Chef Bolinha on the left and Sementinha the strawberry on the right laugh and clap their wings and hands, jumping with joy.
-```
-
-### c08: De volta
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. Around a red-and-white checkered picnic blanket with a round golden corn cake on a plate, on a sunny pastel farm with the barn behind. Nuvem the baby cow on the left wears a tall white chef's hat with a small red star on her head. Chef Bolinha the yellow chick without his hat in the middle, and Sementinha the strawberry on the right, smile at her. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Nuvem the cow, on the left, gently bends her head down toward Chef Bolinha in the middle, and the white chef's hat slides softly from her head onto Chef Bolinha's head. Chef Bolinha straightens his hat with his wing and hugs Nuvem's snout. Sementinha on the right claps happily.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha, in the middle, wearing his white chef's hat again, gives each friend a slice of the golden corn cake on small plates. Nuvem on the left, Chef Bolinha in the middle and Sementinha on the right sit on the picnic blanket and smile at each other, enjoying the cake.
-```
-
-### c09: Festa
-
-**1º quadro (imagem, anexar as 3 referências):**
-
-```
-Horizontal 16:9 image, cute 3D Pixar-like children's cartoon, pastel colors, warm morning light. Keep the three characters exactly like the attached reference images. A sunny pastel farm with the barn, green hill, sunflowers and a red-and-white checkered picnic blanket. Nuvem the baby cow on the left, Chef Bolinha the yellow chick in the middle wearing his tall white chef's hat, and Sementinha the strawberry on the right, standing side by side in front of the blanket, facing the camera, ready to dance with big smiles. Wide shot. No text, no logos, no watermark.
-```
-
-**Parte A (0–10s):**
-
-```
-Start exactly from the attached image. Chef Bolinha is wearing his white chef's hat. The three friends dance happily to the beat: Nuvem on the left sways her head side to side so her golden bell swings, Chef Bolinha in the middle flaps his little wings and hops, Sementinha on the right bounces up and down. Sunflowers sway in the breeze.
-```
-
-**Parte B (10–20s):**
-
-```
-Start exactly from the attached image and continue the same scene. Chef Bolinha is wearing his white chef's hat. The three friends hold hands and turn in a small happy circle around the picnic blanket, then stop side by side facing the camera: Nuvem on the left, Chef Bolinha in the middle, Sementinha on the right. They finish with a cheerful pose, wings and arms up.
-```
+Os prompts de cada clipe ficam no md da pasta dele, já prontos para copiar (com o bloco fixo colado). Cada clipe de 20s usa 3 prompts, nesta ordem:
+
+| Prompt | Onde usar | O que faz |
+|---|---|---|
+| 1º quadro | Gemini → criar imagem, anexando as 3 referências | Gera a imagem que abre o clipe (`imagens/cXX_inicio.png`) |
+| Parte A | Gemini → Vídeo, anexando a imagem acima | Gera os primeiros 10s a partir dessa imagem |
+| Parte B | Gemini → Vídeo, anexando o último quadro da Parte A | Continua a cena por mais 10s |
+
+O **bloco fixo** (estilo, cenário e personagens) vai no começo da Parte A e da Parte B para o Veo não mudar os personagens entre os vídeos.
+
+| Clipe | Instruções |
+|---|---|
+| c01 Piquenique | [videos/c01-piquenique](videos/c01-piquenique/c01-piquenique.md) |
+| c02 O vento | [videos/c02-o-vento](videos/c02-o-vento/c02-o-vento.md) |
+| c03 Correria | [videos/c03-correria](videos/c03-correria/c03-correria.md) |
+| c04 Boing! | [videos/c04-boing](videos/c04-boing/c04-boing.md) |
+| c05 Correria 2 (opcional) | [videos/c05-correria-2](videos/c05-correria-2/c05-correria-2.md) |
+| c06 Cadê? | [videos/c06-cade](videos/c06-cade/c06-cade.md) |
+| c07 Chef Nuvem | [videos/c07-chef-nuvem](videos/c07-chef-nuvem/c07-chef-nuvem.md) |
+| c08 De volta | [videos/c08-de-volta](videos/c08-de-volta/c08-de-volta.md) |
+| c09 Festa | [videos/c09-festa](videos/c09-festa/c09-festa.md) |
 
 ## 6. Montagem
 
